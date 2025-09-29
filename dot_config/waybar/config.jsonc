@@ -46,13 +46,15 @@
   "mpd": {
     "host": "127.0.0.1",
     "port": 6600,
-    "format": " |  {title}",
-    "format-paused": " |  {title}",
+    "format": " |  {title} | {volume}%",
+    "format-paused": " |  {title} | {volume}%",
     "format-stopped": " |   ",
     "on-click": "mpc toggle",
     "on-click-right": "mpc next",
+    "on-scroll-up":"mpc volume +5",
+    "on-scroll-down":"mpc volume -5",
     "on-click-middle": "mpc prev",
-    "tooltip-format": " {title}\n  {artist}\n  {album}",
+    "tooltip-format": " {artist}",
     "interval": 1
   },
   "custom/update": {
