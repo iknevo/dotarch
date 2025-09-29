@@ -1,2 +1,1 @@
-# dotfiles for arch linux
-
+# dotfiles for omarchy
