@@ -8,6 +8,8 @@ alias music="rmpc"
 alias vim="nvim"
 alias chez="chezmoi"
 alias chezcd="cd $(chezmoi source-path)"
+alias files="nautilus"
+
 export PATH="$HOME/dotfiles/scripts:$PATH"
 #
 # Make an alias for invoking commands you use constantly
