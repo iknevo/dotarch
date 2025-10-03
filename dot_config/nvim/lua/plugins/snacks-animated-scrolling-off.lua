@@ -1,13 +1,8 @@
 return {
-  "folke/snacks.nvim",
-  opts = {
-    scroll = {
-      enabled = true, -- Disable scrolling animations
-    },
-    picker = {
-      files = {
-        hidden = true,
-      },
-    },
-  },
+	"folke/snacks.nvim",
+	opts = {
+		scroll = {
+			enabled = false, -- Disable scrolling animations
+		},
+	},
 }

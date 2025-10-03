@@ -11,7 +11,7 @@ return {
         enabled = false,
       },
       editor = {
-        tooltip = "I'm a virgin",
+        tooltip = "The one true text editor",
       },
     })
   end,
