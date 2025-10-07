@@ -1,1 +1,1 @@
-# dotfiles for omarchy
+# dotfiles for omarchy managed by chezmoi
