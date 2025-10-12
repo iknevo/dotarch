@@ -85,22 +85,22 @@
   },
   {
     "command": "selectNextSuggestion",
-    "key": "alt+j",
+    "key": "ctrl+j",
     "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
   },
   {
     "command": "selectPrevSuggestion",
-    "key": "alt+k",
+    "key": "ctrl+k",
     "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
   },
   {
     "command": "workbench.action.quickOpenSelectNext",
-    "key": "alt+j",
+    "key": "ctrl+j",
     "when": "inQuickOpen"
   },
   {
     "command": "workbench.action.quickOpenSelectPrevious",
-    "key": "alt+k",
+    "key": "ctrl+k",
     "when": "inQuickOpen"
   },
   {
@@ -115,12 +115,12 @@
   },
   {
     "command": "selectNextCodeAction",
-    "key": "alt+j",
+    "key": "ctrl+j",
     "when": "codeActionMenuVisible"
   },
   {
     "command": "selectPrevCodeAction",
-    "key": "alt+k",
+    "key": "ctrl+k",
     "when": "codeActionMenuVisible"
   },
   // Coding
@@ -229,7 +229,7 @@
   },
   {
     "command": "editor.action.addSelectionToNextFindMatch",
-    "key": "alt+n",
+    "key": "ctrl+n",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
   {
@@ -312,12 +312,12 @@
   },
   {
     "command": "workbench.action.splitEditor",
-    "key": "alt+s",
+    "key": "ctrl+s",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
     "command": "workbench.action.splitEditorDown",
-    "key": "alt+v",
+    "key": "ctrl+v",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
@@ -369,11 +369,6 @@
     "key": "shift+alt+o",
     "command": "-editor.action.organizeImports",
     "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
-  },
-  {
-    "command": "workbench.action.closeWindow",
-    "key": "alt+q",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus) && !webviewFocus"
   },
   {
     "key": "capslock",

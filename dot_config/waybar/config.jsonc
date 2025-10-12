@@ -181,7 +181,8 @@
   },
   "backlight": {
     "device": "intel_backlight",
-    "format": "  {percent}%"
+    "format": "  {percent}%",
+    "on-click": "omarchy-toggle-nightlight"
   },
   "group/tray-expander": {
     "orientation": "inherit",
