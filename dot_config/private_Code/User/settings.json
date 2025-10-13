@@ -104,7 +104,7 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "git.confirmSync": false,
-  "workbench.editor.showTabs": "none",
+  "workbench.editor.showTabs": "multiple",
   "extensions.ignoreRecommendations": true,
   "editor.unicodeHighlight.invisibleCharacters": false,
   // "chat.commandCenter.enabled": false,
@@ -117,7 +117,7 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "editor.formatOnSave": true,
   "editor.mouseWheelZoom": true,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.8,
   "files.exclude": {
     "**/node_modules": true
   },
@@ -148,5 +148,5 @@
   "vscord.status.image.large.idle.text": "Probably Making Coffee!",
   "vscord.status.problems.enabled": false,
   "vscord.status.state.text.editing": "Editing {file_name}{file_extension}",
-  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.untrustedFiles": "open"
 }
