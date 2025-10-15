@@ -1,6 +1,6 @@
 return {
   "vyfor/cord.nvim",
-  enabled = false,
+  enabled = true,
   build = ":Cord update",
   event = "VeryLazy",
   config = function()
