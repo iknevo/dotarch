@@ -11,6 +11,8 @@ alias chezcd="cd $(chezmoi source-path)"
 alias files="nautilus"
 
 export PATH="$HOME/dotfiles/scripts:$PATH"
+# atac key bindings
+export ATAC_KEY_BINDINGS='~/.config/atac/vim.toml'
 #
 # Make an alias for invoking commands you use constantly
 # alias p='python'
