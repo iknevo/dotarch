@@ -2,7 +2,7 @@
   "reload_style_on_change": true,
   "layer": "top",
   "position": "top",
-  "spacing": 0,
+  "spacing": 5,
   "height": 26,
   "modules-left": [
     "hyprland/workspaces",
@@ -37,6 +37,7 @@
       "8": "8",
       "9": "9",
       "active": ""
+      // "active": "󱓻"
     },
     "persistent-workspaces": {
       "1": [],
@@ -54,9 +55,9 @@
   "mpd": {
     "host": "127.0.0.1",
     "port": 6600,
-    "format": " |  {title} | {volume}%",
-    "format-paused": " |  {title} | {volume}%",
-    "format-stopped": " |   ",
+    "format": "|  {title} | {volume}%",
+    "format-paused": "|  {title} | {volume}%",
+    "format-stopped": "|   ",
     "on-click": "mpc toggle",
     "on-click-right": "mpc next",
     "on-scroll-up": "mpc volume +5",
@@ -117,7 +118,7 @@
     "on-click": "omarchy-launch-wifi"
   },
   "battery": {
-    "format": "{icon} {capacity}%",
+    "format": "| {icon} {capacity}%",
     "format-discharging": "{icon} {capacity}%",
     "format-charging": "{icon} {capacity}%",
     "format-plugged": " {capacity}%",
@@ -165,7 +166,7 @@
     "on-click": "blueberry"
   },
   "pulseaudio": {
-    "format": "{icon}  {volume}%",
+    "format": "| {icon}  {volume}%",
     "on-click": "$TERMINAL --class=Wiremix -e wiremix",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
@@ -181,7 +182,7 @@
   },
   "backlight": {
     "device": "intel_backlight",
-    "format": "  {percent}%",
+    "format": "|  {percent}%",
     "on-click": "omarchy-toggle-nightlight"
   },
   "group/tray-expander": {
