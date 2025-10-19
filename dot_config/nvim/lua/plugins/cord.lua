@@ -12,7 +12,7 @@ return {
         enabled = false,
       },
       editor = {
-        tooltip = "It looks cool",
+        tooltip = "Meh...",
       },
     })
   end,
