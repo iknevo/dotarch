@@ -1,4 +1,5 @@
 {
+  "update.mode": "none",
   "workbench.colorTheme": "NEVO",
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
