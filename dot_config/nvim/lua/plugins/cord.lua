@@ -11,9 +11,9 @@ return {
       idle = {
         enabled = false,
       },
-      editor = {
-        tooltip = "Meh...",
-      },
+      -- editor = {
+      --   tooltip = "Meh...",
+      -- },
     })
   end,
 }
