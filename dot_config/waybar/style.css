@@ -39,13 +39,16 @@
 #custom-omarchy,
 #custom-screenrecording-indicator,
 #custom-update,
-#language
-{
-  padding: 0 7.5px;
+#language,
+#mpc,
+#custom-music,
+#pulseaudio,
+#backlight {
+  padding: 0 5px;
 }
 
 #custom-expand-icon {
-  margin-right: 7px;
+  margin-right: 5px;
 }
 
 tooltip {
