@@ -31,6 +31,7 @@ return {
   {
     "b0o/incline.nvim",
     event = "BufReadPre",
+    enabled = false,
     priority = 1200,
     config = function()
       require("incline").setup({

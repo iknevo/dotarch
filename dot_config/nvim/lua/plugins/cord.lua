@@ -11,9 +11,6 @@ return {
       idle = {
         enabled = false,
       },
-      -- editor = {
-      --   tooltip = "Meh...",
-      -- },
     })
   end,
 }
