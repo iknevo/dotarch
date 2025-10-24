@@ -15,8 +15,19 @@ return {
         },
         explorer = {
           hidden = false,
-          ignored = true,
-          exclude = { "node_modules", ".git", "dist", "build", ".next" },
+          ignored = false,
+          -- exclude = { "node_modules", ".git", "dist", "build", ".next" },
+        },
+      },
+      icons = {
+        git = {
+          staged = "●",
+          added = "A",
+          deleted = "D",
+          ignored = "",
+          modified = "M",
+          renamed = "R",
+          untracked = "U",
         },
       },
     },
