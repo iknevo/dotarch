@@ -1,6 +1,7 @@
-{ "workbench.colorTheme": "NEVO",    
+{
+  "workbench.colorTheme": "NEVO",
   "update.mode": "none",
-  
+
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
     "source.sortImports": "always"
