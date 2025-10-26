@@ -150,5 +150,8 @@
   "vscord.status.image.large.idle.text": "Probably Making Coffee!",
   "vscord.status.problems.enabled": false,
   "vscord.status.state.text.editing": "Editing {file_name}{file_extension}",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
 }

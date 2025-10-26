@@ -13,6 +13,7 @@ alias chez="chezmoi"
 alias chezcd="cd $(chezmoi source-path)"
 alias files="nautilus"
 alias mv="bmv"
+alias lg="lazygit"
 
 export PATH="$HOME/dotfiles/scripts:$PATH"
 # atac key bindings
