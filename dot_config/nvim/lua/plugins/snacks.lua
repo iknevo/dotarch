@@ -16,7 +16,6 @@ return {
         explorer = {
           hidden = false,
           ignored = false,
-          auto_close = true,
           layout = { layout = { position = "right" } },
           -- exclude = { "node_modules", ".git", "dist", "build", ".next" },
         },
