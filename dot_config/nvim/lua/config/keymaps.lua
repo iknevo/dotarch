@@ -1,7 +1,7 @@
 local map = vim.keymap.set
 local del = vim.keymap.del
 
--- jk to normal mode
+-- normal mode
 map("i", "jk", "<Esc>", { desc = "Exit insert mode" })
 
 -- Resize window
@@ -26,8 +26,12 @@ map("v", "<C-k>", ":<C-u>execute \"'<,'>move '<-\" . (v:count1 + 1)<cr>gv=gv", {
 map("x", "<", "<gv")
 map("x", ">", ">gv")
 
--- windows
+-- splits
 del("n", "<leader>|")
 
-map("n", "<leader>-", "<C-W>s", { desc = "Split Window Below", remap = true })
-map("n", "<leader>=", "<C-W>v", { desc = "Split Window Right", remap = true })
+map("n", "-", "<C-W>s", { desc = "Split Window Below", remap = true })
+map("n", "=", "<C-W>v", { desc = "Split Window Right", remap = true })
+
+-- better scrolling
+map("n", "<C-j>", "<C-d>zz", { desc = "Scroll Down", remap = true })
+map("n", "<C-k>", "<C-u>zz", { desc = "Scroll Up", remap = true })
