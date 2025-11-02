@@ -1,7 +1,7 @@
 return {
   {
     "nvim-tree/nvim-tree.lua",
-    enabled = false,
+    enabled = true,
     version = "*",
     lazy = false,
     dependencies = {
@@ -41,6 +41,7 @@ return {
         side = "right",
         preserve_window_proportions = true,
         width = 40,
+        relativenumber = true,
       },
       renderer = {
         full_name = false,
@@ -85,6 +86,7 @@ return {
         vim.keymap.set("n", "P", api.node.open.preview, ops("Preview"))
         vim.keymap.set("n", "s", api.node.open.vertical_no_picker, ops("Open Horizontal"))
         vim.keymap.set("n", "S", api.node.open.horizontal_no_picker, ops("Open Vertical"))
+        vim.keymap.set("n", "l", api.node.open.edit, ops("Open or Expand"))
       end
 
       opts.on_attach = keybindings
