@@ -1,5 +1,6 @@
-{ "workbench.colorTheme": "NEVO",
-  
+{
+  "workbench.colorTheme": "NEVO",
+
   "update.mode": "none",
 
   "editor.codeActionsOnSave": {
@@ -106,7 +107,7 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "git.confirmSync": false,
-  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.showTabs": "none",
   "extensions.ignoreRecommendations": true,
   "editor.unicodeHighlight.invisibleCharacters": false,
   // "chat.commandCenter.enabled": false,
