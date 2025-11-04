@@ -4,11 +4,15 @@ local del = vim.keymap.del
 -- normal mode
 map("i", "jk", "<Esc>", { desc = "Exit insert mode" })
 
+map("n", "Q", "<nop>")
+
 -- Resize window
 del("n", "<C-Up>")
 del("n", "<C-Down>")
 del("n", "<C-Left>")
 del("n", "<C-Right>")
+
+map("n", ";", ":", { desc = "CMD enter command mode" })
 
 map("n", "<A-h>", "<cmd>vertical resize +2<cr>", { desc = "Increase Window Width" })
 map("n", "<A-j>", "<cmd>resize +2<cr>", { desc = "Increase Window Height" })

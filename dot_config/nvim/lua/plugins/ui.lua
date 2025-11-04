@@ -30,28 +30,33 @@ return {
   -- filename
   {
     "b0o/incline.nvim",
-    event = "BufReadPre",
-    enabled = false,
-    priority = 1200,
+    enabled = true,
+    dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
+      local devicons = require("nvim-web-devicons")
+
       require("incline").setup({
-        highlight = {
-          groups = {
-            InclineNormal = { guibg = "#303270", guifg = "#a9b1d6" },
-            InclineNormalNC = { guibg = "none", guifg = "#a9b1d6" },
-          },
+        hide = {
+          only_win = false,
         },
-        window = { margin = { vertical = 0, horizontal = 1 } },
-        hide = { cursorline = true },
         render = function(props)
-          local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(props.buf), ":t")
-          if vim.bo[props.buf].modified then
-            filename = "[*]" .. filename
+          local bufname = vim.api.nvim_buf_get_name(props.buf)
+          local filename = vim.fn.fnamemodify(bufname, ":t")
+          if filename == "" then
+            filename = "[No Name]"
           end
 
-          local icon, color = require("nvim-web-devicons").get_icon_color(filename)
+          local ext = vim.fn.fnamemodify(bufname, ":e")
+          local icon, icon_color = devicons.get_icon(filename, ext, { default = true })
 
-          return { { icon, guifg = color }, { " " }, { filename } }
+          local modified = vim.bo[props.buf].modified
+
+          return {
+            { " ", icon, " ", guifg = icon_color },
+            { filename, gui = modified and "bold" or "none" },
+            modified and { " [+]", guifg = "#ff9e64" } or "",
+            " ",
+          }
         end,
       })
     end,
