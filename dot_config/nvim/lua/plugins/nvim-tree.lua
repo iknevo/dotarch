@@ -43,7 +43,7 @@ return {
         side = "right",
         preserve_window_proportions = true,
         width = 40,
-        relativenumber = true,
+        -- relativenumber = true,
       },
       renderer = {
         full_name = false,
