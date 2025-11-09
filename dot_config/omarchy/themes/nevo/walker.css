@@ -1,7 +1,9 @@
-@define-color selected-text #66cc66;
+/* @define-color selected-text #66cc66; */
+@define-color selected-text #e65c5c;
 @define-color text #e6e6e6;
 @define-color base #0d0d0d;
-@define-color border #e65c5c;
+/* @define-color border #e65c5c; */
+@define-color border #a4b4b4;
 @define-color foreground #f2f2f2;
 @define-color background #000000;
 @define-color hover #2a2a2a;

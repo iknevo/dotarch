@@ -1,8 +1,10 @@
 @define-color background-color #262626;
-@define-color border-color     #e65c5c;
+/* @define-color border-color     #e65c5c; */
+@define-color border-color     #a5b5b5;
 @define-color label            #e6e6e6;
 @define-color image            #e6e6e6;
-@define-color progress        #66cc66;
+/* @define-color progress        #66cc66; */
+@define-color progress        #e65c5c;
 
 window {
   background-color: transparent;

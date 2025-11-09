@@ -15,6 +15,7 @@
   "conform.nvim": { "branch": "master", "commit": "26c02e1155a4980900bdccabca4516f4c712aae9" },
   "cord.nvim": { "branch": "master", "commit": "1af0ff6826b10f9ae8b01c63d16a90b8b31e7c48" },
   "everforest": { "branch": "master", "commit": "9b86fe80a8a58f77eedf2d171fde82e31446aaff" },
+  "everforest-nvim": { "branch": "main", "commit": "557bce922401e247a596583679bc181d4d688554" },
   "fidget.nvim": { "branch": "main", "commit": "e32b672d8fd343f9d6a76944fedb8c61d7d8111a" },
   "flash.nvim": { "branch": "main", "commit": "fcea7ff883235d9024dc41e638f164a450c14ca2" },
   "flexoki-neovim": { "branch": "main", "commit": "c3e2251e813d29d885a7cbbe9808a7af234d845d" },
