@@ -1,6 +1,9 @@
 /* @define-color selected-text #66cc66; */
-@define-color selected-text #e65c5c;
+@define-color selected-text #E55812;
 @define-color text #e6e6e6;
+
+/* @define-color selected-text #ffffff; */
+/* @define-color text #71767b; */
 @define-color base #0d0d0d;
 /* @define-color border #e65c5c; */
 @define-color border #a4b4b4;
