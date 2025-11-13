@@ -1,11 +1,7 @@
-/* @define-color selected-text #66cc66; */
 @define-color selected-text #E55812;
 @define-color text #e6e6e6;
 
-/* @define-color selected-text #ffffff; */
-/* @define-color text #71767b; */
 @define-color base #0d0d0d;
-/* @define-color border #e65c5c; */
 @define-color border #a4b4b4;
 @define-color foreground #f2f2f2;
 @define-color background #000000;
@@ -27,20 +23,6 @@
   margin: 0px;
   box-shadow: none;
   -gtk-outline-radius: 0;
-}
-
-#search,
-.search,
-#tray #search,
-#tray .search {
-  background: alpha(@hover, 0.3);
-  color: @foreground;
-  border: 1px solid alpha(@border, 0.5);
-  border-radius: 10px;
-  padding: 8px 12px;
-  margin: 4px;
-  font-size: 14px;
-  font-weight: 500;
 }
 
 #search:focus,
