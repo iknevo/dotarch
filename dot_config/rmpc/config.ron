@@ -26,6 +26,12 @@
         vertical_align: Center,
         horizontal_align: Center,
     ),
+    statusbar: (
+        enabled: true,
+        left: ["state", "song"],
+        center: ["queue_length", "queue_time_total"],
+        right: ["volume"],
+    ),
     keybinds: (
         global: {
             ":":       CommandMode,
@@ -35,10 +41,11 @@
             "<Tab>":   NextTab,
             "<S-Tab>": PreviousTab,
             "1":       SwitchToTab("Queue"),
-            "2":       SwitchToTab("Artists"),
-            "3":       SwitchToTab("Albums"),
-            "4":       SwitchToTab("Playlists"),
-            "5":       SwitchToTab("Search"),
+            "2":       SwitchToTab("Directories"),
+            "3":       SwitchToTab("Search"),
+            "4":       SwitchToTab("Artists"),
+            "5":       SwitchToTab("Albums"),
+            "6":       SwitchToTab("Playlists"),
             "q":       Quit,
             ">":       NextTrack,
             "p":       TogglePause,
@@ -126,6 +133,14 @@
                 panes: [(size: "40%", pane: Pane(AlbumArt)), (size: "60%", pane: Pane(Queue))],
             ),
         ),
+       (
+            name: "Directories",
+            pane: Pane(Directories),
+        ),
+        (
+            name: "Search",
+            pane: Pane(Search),
+        ),
         (
             name: "Artists",
             pane: Pane(Artists),
@@ -137,10 +152,6 @@
         (
             name: "Playlists",
             pane: Pane(Playlists),
-        ),
-        (
-            name: "Search",
-            pane: Pane(Search),
         ),
     ],
 )
