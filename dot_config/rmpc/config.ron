@@ -41,8 +41,8 @@
             "<Tab>":   NextTab,
             "<S-Tab>": PreviousTab,
             "1":       SwitchToTab("Queue"),
-            "2":       SwitchToTab("Directories"),
-            "3":       SwitchToTab("Search"),
+            "2":       SwitchToTab("Search"),
+            "3":       SwitchToTab("Directories"),
             "4":       SwitchToTab("Artists"),
             "5":       SwitchToTab("Albums"),
             "6":       SwitchToTab("Playlists"),
@@ -133,13 +133,13 @@
                 panes: [(size: "40%", pane: Pane(AlbumArt)), (size: "60%", pane: Pane(Queue))],
             ),
         ),
-       (
-            name: "Directories",
-            pane: Pane(Directories),
-        ),
         (
             name: "Search",
             pane: Pane(Search),
+        ),
+        (
+            name: "Directories",
+            pane: Pane(Directories),
         ),
         (
             name: "Artists",
