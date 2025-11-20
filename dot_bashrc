@@ -8,6 +8,7 @@ source ~/.local/share/omarchy/default/bash/rc
 # Add your own exports, aliases, and functions here.
 cd "$HOME" || exit
 alias m="rmpc"
+alias y="yazi"
 alias vim="nvim"
 alias chez="chezmoi"
 alias chezcd="cd $(chezmoi source-path)"
