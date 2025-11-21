@@ -16,6 +16,7 @@ alias lg="lazygit"
 alias ld="lazydocker"
 
 export PATH="$HOME/dotfiles/scripts:$PATH"
+export XDG_CONFIG_HOME="$HOME/.config"
 
 export ATAC_KEY_BINDINGS='~/.config/atac/vim.toml'
 
