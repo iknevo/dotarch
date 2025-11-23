@@ -1,11 +1,11 @@
 [[ $- != *i* ]] && return
 
-# All the default Omarchy aliases and functions
-# (don't mess with these directly, just overwrite them here!)
 source ~/.local/share/omarchy/default/bash/rc
 
-# Add your own exports, aliases, and functions here.
-cd "$HOME" || exit
+if [ -z "$TMUX" ]; then
+  cd "$HOME" || exit
+fi
+
 alias m="rmpc"
 alias vim="nvim"
 alias chez="chezmoi"
@@ -29,5 +29,5 @@ function y() {
 }
 
 export NVM_DIR="$HOME/.config/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
