@@ -123,9 +123,6 @@ header: (
                 (kind: Text(" | "), style: (fg: "#81a1c1")), 
                 (kind: Text("Queue: "), style: (fg: "#81a1c1", modifiers: "Bold")),
                 (kind: Property(Status(QueueLength(thousands_separator: ",")))), 
-                (kind: Text(" "), style: (fg: "#81a1c1")),
-                (kind: Text("Time: "), style: (fg: "#81a1c1", modifiers: "Bold")),
-                (kind: Property(Status(QueueTimeTotal(separator: ":")))), 
             ],
             center: [
                 (kind: Property(Song(Title)), style: (fg: "#d8dee9",modifiers: "Bold"),
