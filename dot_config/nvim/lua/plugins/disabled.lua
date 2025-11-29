@@ -7,14 +7,18 @@ return {
   },
   {
     "nvim-tree/nvim-tree.lua",
-    enabled = true,
-  },
-  {
-    "nvim-neo-tree/neo-tree.nvim",
     enabled = false,
   },
   {
+    "nvim-neo-tree/neo-tree.nvim",
+    enabled = true,
+  },
+  {
     "folke/noice.nvim",
+    enabled = true,
+  },
+  {
+    "rcarriga/nvim-notify",
     enabled = true,
   },
 }

@@ -11,6 +11,13 @@ return {
         },
         opts = { skip = true },
       },
+      {
+        filter = {
+          event = "notify",
+          find = "Neo%-tree",
+        },
+        opts = { skip = true },
+      },
     },
     presets = { inc_rename = true },
     lsp = {

@@ -42,8 +42,6 @@ return {
         adaptive_size = false,
         side = "right",
         preserve_window_proportions = true,
-        width = 40,
-        -- relativenumber = true,
       },
       renderer = {
         full_name = false,
@@ -87,7 +85,7 @@ return {
         -- custom mappings
         vim.keymap.set("n", "P", api.node.open.preview, ops("Preview"))
         vim.keymap.set("n", "s", api.node.open.vertical_no_picker, ops("Open Horizontal"))
-        vim.keymap.set("n", "S", api.node.open.horizontal_no_picker, ops("Open Vertical"))
+        vim.keymap.set("n", "v", api.node.open.horizontal_no_picker, ops("Open Vertical"))
         vim.keymap.set("n", "l", api.node.open.edit, ops("Open or Expand"))
       end
 
@@ -95,29 +93,29 @@ return {
 
       nvimtree.setup(opts)
 
-      local function open_tree_on_setup(args)
-        vim.schedule(function()
-          local file = args.file
-          local buf_name = vim.api.nvim_buf_get_name(0)
-          local is_no_name_buffer = buf_name == "" and vim.bo.filetype == "" and vim.bo.buftype == ""
-          local is_directory = vim.fn.isdirectory(file) == 1
+      -- local function open_tree_on_setup(args)
+      --   vim.schedule(function()
+      --     local file = args.file
+      --     local buf_name = vim.api.nvim_buf_get_name(0)
+      --     local is_no_name_buffer = buf_name == "" and vim.bo.filetype == "" and vim.bo.buftype == ""
+      --     local is_directory = vim.fn.isdirectory(file) == 1
+      --
+      --     if not is_no_name_buffer and not is_directory then
+      --       return
+      --     end
+      --
+      --     if is_directory then
+      --       vim.cmd.cd(file)
+      --     end
+      --
+      --     require("nvim-tree.api").tree.open()
+      --   end)
+      -- end
 
-          if not is_no_name_buffer and not is_directory then
-            return
-          end
-
-          if is_directory then
-            vim.cmd.cd(file)
-          end
-
-          require("nvim-tree.api").tree.open()
-        end)
-      end
-
-      vim.api.nvim_create_autocmd("BufEnter", {
-        group = vim.api.nvim_create_augroup("nvim-tree", { clear = true }),
-        callback = open_tree_on_setup,
-      })
+      -- vim.api.nvim_create_autocmd("BufEnter", {
+      --   group = vim.api.nvim_create_augroup("nvim-tree", { clear = true }),
+      --   callback = open_tree_on_setup,
+      -- })
     end,
   },
   {
