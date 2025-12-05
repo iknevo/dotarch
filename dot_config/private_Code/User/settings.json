@@ -1,5 +1,5 @@
-{ "workbench.colorTheme": "NEVO",  
-  
+{
+  "workbench.colorTheme": "NEVO",
 
   "update.mode": "none",
 
@@ -154,5 +154,6 @@
   "security.workspace.trust.untrustedFiles": "open",
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
-  }
+  },
+  "svelte.enable-ts-plugin": true
 }

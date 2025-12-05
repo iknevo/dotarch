@@ -4,6 +4,15 @@ return {
   opts = {
     routes = {
       {
+        view = "mini",
+        filter = {
+          event = "msg_showmode",
+          any = {
+            { find = "recording" },
+          },
+        },
+      },
+      {
         filter = {
           event = "msg_show",
           kind = "",

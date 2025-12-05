@@ -1,5 +1,6 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
+-- vim.opt.signcolumn = "no"
 
 vim.o.showmode = false
 
@@ -15,7 +16,6 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 vim.opt.wrap = true
 
--- folding (for nvim-ufo)
 vim.o.foldenable = true
 vim.o.foldmethod = "manual"
 vim.o.foldlevel = 99

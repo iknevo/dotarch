@@ -2,9 +2,10 @@ local map = vim.keymap.set
 local del = vim.keymap.del
 
 -- normal mode
-map("i", "jk", "<Esc>", { desc = "Exit insert mode" })
+-- map("i", "jk", "<Esc>", { desc = "Exit insert mode" })
 
-map("n", "Q", "<nop>")
+-- map("n", "m", "q")
+-- map("n", "q", "<nop>")
 
 -- Resize window
 del("n", "<C-Up>")

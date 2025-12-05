@@ -3,21 +3,21 @@ return {
   cmd = "Neotree",
   keys = {
     {
-      "<leader>fe",
+      "<leader>fE",
       function()
         require("neo-tree.command").execute({ toggle = true, dir = LazyVim.root() })
       end,
       desc = "Explorer NeoTree (Root Dir)",
     },
     {
-      "<leader>fE",
+      "<leader>fe",
       function()
         require("neo-tree.command").execute({ toggle = true, dir = vim.uv.cwd() })
       end,
       desc = "Explorer NeoTree (cwd)",
     },
-    { "<leader>e", "<leader>fe", desc = "Explorer NeoTree (Root Dir)", remap = true },
-    { "<leader>E", "<leader>fE", desc = "Explorer NeoTree (cwd)", remap = true },
+    { "<leader>e", "<leader>fe", desc = "Explorer NeoTree (cwd)", remap = true },
+    { "<leader>E", "<leader>fE", desc = "Explorer NeoTree (Root Dir)", remap = true },
     {
       "<leader>ge",
       function()
@@ -33,9 +33,6 @@ return {
       desc = "Buffer Explorer",
     },
   },
-  deactivate = function()
-    vim.cmd([[Neotree close]])
-  end,
   init = function()
     -- FIX: use `autocmd` for lazy-loading neo-tree instead of directly requiring it,
     -- because `cwd` is not set up properly.

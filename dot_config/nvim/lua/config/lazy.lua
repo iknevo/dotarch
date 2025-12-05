@@ -36,6 +36,9 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
     { import = "plugins" },
   },
+  change_detection = {
+    notify = false,
+  },
   defaults = {
     lazy = false,
     version = false,
