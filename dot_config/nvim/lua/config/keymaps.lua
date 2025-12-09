@@ -38,5 +38,5 @@ map("n", "-", "<C-W>s", { desc = "Split Window Below", remap = true })
 map("n", "=", "<C-W>v", { desc = "Split Window Right", remap = true })
 
 -- better scrolling
-map("n", "<C-j>", "<C-d>zz", { desc = "Scroll Down", remap = true })
-map("n", "<C-k>", "<C-u>zz", { desc = "Scroll Up", remap = true })
+map("n", "<C-d>", "<C-d>zz", { desc = "Scroll Down", remap = true })
+map("n", "<C-u>", "<C-u>zz", { desc = "Scroll Up", remap = true })
