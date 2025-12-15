@@ -54,7 +54,7 @@ return {
           return {
             { " ", icon, " ", guifg = icon_color },
             { filename, gui = modified and "bold" or "none" },
-            modified and { " [+]", guifg = "#ff9e64" } or "",
+            modified and { " ●", guifg = "#ff9e64" } or "",
             " ",
           }
         end,
