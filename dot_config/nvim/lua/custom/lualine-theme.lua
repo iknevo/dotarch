@@ -4,8 +4,10 @@ M.theme = function()
   local colors = {
     black = "#000000",
     white = "#ffffff",
-    darkgray = "#16161d",
     gray = "#a5b5b5",
+    darkgray = "#16161d",
+
+    -- Mode
     normal = "#7e9cd8",
     insert = "#98bb6c",
     visual = "#ffa066",
