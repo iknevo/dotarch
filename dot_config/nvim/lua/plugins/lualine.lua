@@ -3,16 +3,6 @@ return {
   dependencies = { "nvim-tree/nvim-web-devicons" },
   config = function()
     local theme = require("custom.lualine-theme").theme()
-    local mode_map = {
-      NORMAL = "N",
-      INSERT = "I",
-      VISUAL = "V",
-      ["V-LINE"] = "V",
-      ["V-BLOCK"] = "V",
-      REPLACE = "R",
-      COMMAND = "C",
-      TERMINAL = "T",
-    }
 
     require("lualine").setup({
       options = {
@@ -26,7 +16,7 @@ return {
           {
             "mode",
             fmt = function(str)
-              return mode_map[str] or str
+              return str:sub(1, 1)
             end,
           },
         },
