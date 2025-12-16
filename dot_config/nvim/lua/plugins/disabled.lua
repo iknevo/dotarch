@@ -1,6 +1,5 @@
 return {
   { "vyfor/cord.nvim", enabled = true },
-  { "nvim-lualine/lualine.nvim", enabled = true },
   {
     "akinsho/bufferline.nvim",
     enabled = false,
@@ -19,6 +18,6 @@ return {
   },
   {
     "rcarriga/nvim-notify",
-    enabled = true,
+    enabled = false,
   },
 }
