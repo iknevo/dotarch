@@ -107,16 +107,27 @@ return {
           conflict = "",
           ignored = "",
         },
+        -- symbols = {
+        --   added = "A",
+        --   modified = "M",
+        --   deleted = "D",
+        --   renamed = "R",
+        --   untracked = "U",
+        --   unstaged = "",
+        --   staged = "S",
+        --   conflict = "C",
+        --   ignored = "",
+        -- },
       },
     },
-    event_handlers = {
-      {
-        event = "file_opened",
-        handler = function()
-          require("neo-tree.command").execute({ action = "close" })
-        end,
-      },
-    },
+    -- event_handlers = {
+    --   {
+    --     event = "file_opened",
+    --     handler = function()
+    --       require("neo-tree.command").execute({ action = "close" })
+    --     end,
+    --   },
+    -- },
   },
   config = function(_, opts)
     local function on_move(data)

@@ -87,7 +87,7 @@
   },
   "clock": {
     "format": "{:%A %I:%M %p}",
-    "format-alt": "{:%A, %d %B %Y}",
+    "format-alt": "{:%A, %d/%m %B %Y}",
     "tooltip": false,
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
   },
