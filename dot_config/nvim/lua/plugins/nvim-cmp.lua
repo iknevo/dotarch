@@ -2,6 +2,7 @@ return {
   "hrsh7th/nvim-cmp",
   event = "InsertEnter",
   dependencies = {
+    "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/cmp-buffer",
     "hrsh7th/cmp-path",
     "f3fora/cmp-spell",
@@ -16,7 +17,6 @@ return {
   },
   config = function()
     local cmp = require("cmp")
-    -- loads vscode style snippets from installed plugins (e.g. friendly-snippets)
     require("luasnip.loaders.from_vscode").lazy_load()
 
     cmp.setup({
@@ -25,6 +25,7 @@ return {
       },
       window = {
         documentation = {
+          scrollbar = false,
           border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
         },
         completion = {
@@ -33,28 +34,17 @@ return {
       },
       -- autocompletion sources
       sources = cmp.config.sources({
-        { name = "luasnip" },
-        { name = "lazydev" },
-        { name = "nvim_lsp" },
-        { name = "buffer" },
-        { name = "path" },
-        { name = "tailwindcss-colorizer-cmp" },
-        {
-          name = "spell",
-          option = {
-            enable_in_context = function()
-              local ft = vim.bo.filetype
-              return ft == "markdown" or ft == "text"
-            end,
-          },
-        },
+        { name = "nvim_lsp", priority = 1000 },
+        { name = "luasnip", priority = 750 },
+        { name = "path", priority = 500 },
+        { name = "buffer", keyword_length = 3, priority = 250 },
       }),
       mapping = cmp.mapping.preset.insert({
         ["<C-j>"] = cmp.mapping.select_next_item(),
         ["<C-k>"] = cmp.mapping.select_prev_item(),
         ["<C-u>"] = cmp.mapping.scroll_docs(-4),
         ["<C-d>"] = cmp.mapping.scroll_docs(4),
-        -- ["<Tab>"] = cmp.mapping.confirm({ select = true }),
+        ["<Tab>"] = cmp.mapping.confirm({ select = true }),
         ["<C-Space>"] = cmp.mapping.complete({}),
         ["<CR>"] = cmp.mapping.confirm({ select = true }),
       }),

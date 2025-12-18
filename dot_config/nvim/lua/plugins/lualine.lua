@@ -20,7 +20,17 @@ return {
             end,
           },
         },
-        lualine_c = { { "filename", path = 1 } },
+        lualine_c = {
+          {
+            "filename",
+            symbols = {
+              modified = "●",
+              readonly = " ",
+              unnamed = "[No Name]",
+            },
+            path = 1,
+          },
+        },
         lualine_x = { "filetype" },
         lualine_z = { "searchcount" },
       },
