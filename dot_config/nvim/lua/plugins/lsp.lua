@@ -72,13 +72,6 @@ return {
                 willRename = true,
               },
             },
-            textDocument = {
-              completion = {
-                completionItem = {
-                  snippetSupport = true,
-                },
-              },
-            },
           }),
           -- stylua: ignore
           keys = {
