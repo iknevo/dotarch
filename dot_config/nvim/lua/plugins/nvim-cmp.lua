@@ -13,6 +13,7 @@ return {
     "nvim-treesitter/nvim-treesitter",
     "onsails/lspkind.nvim",
     "roobert/tailwindcss-colorizer-cmp.nvim",
+    "f3fora/cmp-spell",
   },
   config = function()
     local cmp = require("cmp")
@@ -33,10 +34,11 @@ return {
       },
       -- autocompletion sources
       sources = cmp.config.sources({
-        { name = "nvim_lsp", priority = 1000 },
-        { name = "luasnip", priority = 750 },
-        { name = "path", priority = 500 },
-        { name = "buffer", keyword_length = 3, priority = 250 },
+        { name = "nvim_lsp" },
+        { name = "luasnip" },
+        { name = "buffer" },
+        { name = "path" },
+        { name = "spell", keyword_length = 3 },
       }),
       mapping = cmp.mapping.preset.insert({
         ["<C-j>"] = cmp.mapping.select_next_item(),
