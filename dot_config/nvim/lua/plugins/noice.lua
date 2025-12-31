@@ -22,6 +22,13 @@ return {
       },
       {
         filter = {
+          event = "msg_show",
+          find = "lines",
+        },
+        opts = { skip = true },
+      },
+      {
+        filter = {
           event = "notify",
           find = "Neo%-tree",
         },

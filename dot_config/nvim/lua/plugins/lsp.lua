@@ -58,10 +58,6 @@ return {
         formatting_options = nil,
         timeout_ms = nil,
       },
-      -- LSP Server Settings
-      -- Sets the default configuration for an LSP client (or all clients if the special name "*" is used).
-      ---@alias lazyvim.lsp.Config vim.lsp.Config|{mason?:boolean, enabled?:boolean, keys?:LazyKeysLspSpec[]}
-      ---@type table<string, lazyvim.lsp.Config|boolean>
       servers = {
         -- configuration for all lsp servers
         ["*"] = {
@@ -206,13 +202,6 @@ return {
       end
     end
     vim.diagnostic.config(vim.deepcopy(opts.diagnostics))
-
-    if opts.capabilities then
-      LazyVim.deprecate("lsp-config.opts.capabilities", "Use lsp-config.opts.servers['*'].capabilities instead")
-      opts.servers["*"] = vim.tbl_deep_extend("force", opts.servers["*"] or {}, {
-        capabilities = opts.capabilities,
-      })
-    end
 
     if opts.servers["*"] then
       vim.lsp.config("*", opts.servers["*"])
