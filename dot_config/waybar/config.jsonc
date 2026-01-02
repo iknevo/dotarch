@@ -86,9 +86,20 @@
     "on-click": "omarchy-launch-or-focus-tui btop"
   },
   "clock": {
-    "format": "{:%A, %I:%M %p}",
-    "format-alt": "{:%A, %d/%m/%Y}",
-    "tooltip": false,
+    "format": "{:%I:%M %p}",
+    "format-alt": "{:%A %d/%m/%Y}",
+    "tooltip": true,
+    "tooltip-format": "<span>{calendar}</span>",
+    "calendar": {
+      "mode": "mouth",
+      "mode-mon-col": 3,
+      "on-click-right": "mode",
+      "format": {
+        "mouth": "<span color='#ffead3'><b>{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b>{}</b></span>"
+      }
+    },
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
   },
   "custom/music": {
@@ -153,7 +164,8 @@
   "backlight": {
     "device": "intel_backlight",
     "format": " {percent}%",
-    "on-click": "omarchy-toggle-nightlight"
+    "on-click": "omarchy-toggle-nightlight",
+    "scroll-step": 5
   },
   "group/tray-expander": {
     "orientation": "inherit",
