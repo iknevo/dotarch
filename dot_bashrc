@@ -2,8 +2,6 @@
 
 source ~/.local/share/omarchy/default/bash/rc
 
-set -o vi
-
 if [ -z "$TMUX" ]; then
   cd "$HOME" || exit
 fi
