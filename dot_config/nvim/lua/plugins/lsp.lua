@@ -60,6 +60,37 @@ return {
               desc = "Prev Reference", enabled = function() return Snacks.words.is_enabled() end },
           },
         },
+        cssls = {
+          settings = {
+            css = {
+              validate = true,
+              lint = {
+                unknownAtRules = "ignore",
+              },
+            },
+            scss = {
+              lint = {
+                unknownAtRules = "ignore",
+              },
+            },
+            less = {
+              lint = {
+                unknownAtRules = "ignore",
+              },
+            },
+          },
+        },
+        tailwindcss = {
+          filetypes = {
+            "html",
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact",
+            "astro",
+            "templ",
+          },
+        },
       },
     },
   },

@@ -3,12 +3,6 @@ local del = vim.keymap.del
 
 local opts = { noremap = true, silent = true }
 
--- delete single character without copying into register
-map("n", "x", '"_x', opts)
-
--- Keep last yanked when pasting
-vim.keymap.set("v", "p", '"_dP', opts)
-
 -- Toggle spell check
 map("n", "<C-s>", ":set spell!<CR>", { desc = "Toggle spell check", silent = true })
 map("i", "<C-s>", "<C-O>:set spell!<CR>", { desc = "Toggle spell check", silent = true })
