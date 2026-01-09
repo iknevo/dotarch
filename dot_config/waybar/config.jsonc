@@ -86,9 +86,9 @@
     "on-click": "omarchy-launch-or-focus-tui btop"
   },
   "clock": {
-    "format": "{:%I:%M %p}",
+    "format": "{:%A %I:%M %p}",
     "format-alt": "{:%A %d/%m/%Y}",
-    "tooltip": true,
+    "tooltip": false,
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
       "mode": "mouth",
