@@ -45,3 +45,41 @@ return {
 -- 		},
 -- 	},
 -- }
+
+-- return {
+-- 	{
+-- 		"bjarneo/aether.nvim",
+-- 		name = "aether",
+-- 		priority = 1000,
+-- 		opts = {
+-- 			disable_italics = false,
+-- 			colors = {
+-- 				-- Core
+-- 				base00 = "#000000", -- background
+-- 				base01 = "#000000", -- statusline / panels
+-- 				base02 = "#333333", -- selection
+-- 				base03 = "#8a8a8d", -- comments
+-- 				base04 = "#b3adad", -- subtle foreground
+-- 				base05 = "#bebebe", -- main foreground
+-- 				base06 = "#eaeaea", -- light foreground
+-- 				base07 = "#ffffff", -- brightest foreground
+--
+-- 				-- Syntax
+-- 				base08 = "#984b1e", -- errors / variables (burnt orange)
+-- 				base09 = "#FFC107", -- numbers / constants (gold)
+-- 				base0A = "#e68e0d", -- types / annotations
+-- 				base0B = "#c6c4b0", -- strings (warm gray)
+-- 				base0C = "#bebebe", -- support / operators
+-- 				base0D = "#f59e0b", -- functions / keywords
+-- 				base0E = "#e19e74", -- control / accents
+-- 				base0F = "#8f4445", -- warnings / misc
+-- 			},
+-- 		},
+-- 	},
+-- 	{
+-- 		"LazyVim/LazyVim",
+-- 		opts = {
+-- 			colorscheme = "aether",
+-- 		},
+-- 	},
+-- }
