@@ -9,6 +9,7 @@
     "clock",
     "hyprland/language",
     "custom/update",
+    "custom/voxtype",
     "custom/screenrecording-indicator"
   ],
   "modules-right": [
@@ -86,8 +87,8 @@
     "on-click": "omarchy-launch-or-focus-tui btop"
   },
   "clock": {
-    "format": "{:%A %I:%M %p}",
-    "format-alt": "{:%A %d/%m/%Y}",
+    "format": "{:L%A %I:%M %p}",
+    "format-alt": "{:L%d %B %Y W-%V}",
     "tooltip": false,
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
