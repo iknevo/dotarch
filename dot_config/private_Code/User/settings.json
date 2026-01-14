@@ -1,5 +1,5 @@
-{ "workbench.colorTheme": "NEVO",                                     
-  
+{
+  "workbench.colorTheme": "NEVO",
 
   "update.mode": "none",
 
@@ -155,5 +155,6 @@
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
-  "svelte.enable-ts-plugin": true
+  "svelte.enable-ts-plugin": true,
+  "claudeCode.preferredLocation": "panel"
 }
