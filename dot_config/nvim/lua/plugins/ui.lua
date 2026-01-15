@@ -30,7 +30,7 @@ return {
   -- filename
   {
     "b0o/incline.nvim",
-    enabled = false,
+    enabled = true,
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
       local devicons = require("nvim-web-devicons")
@@ -52,7 +52,7 @@ return {
           local modified = vim.bo[props.buf].modified
 
           return {
-            { " ", icon, " ", guifg = icon_color },
+            { " ",      icon,                               " ", guifg = icon_color },
             { filename, gui = modified and "bold" or "none" },
             modified and { " ●", guifg = "#ff9e64" } or "",
             " ",

@@ -52,3 +52,6 @@ vim.keymap.set("n", "N", "Nzzzv", opts)
 
 -- Toggle line wrapping
 vim.keymap.set("n", "<leader>lw", "<cmd>set wrap!<CR>", { desc = "Toggle line wrapping", remap = true, silent = true })
+
+-- Duplicate line and comment the first line
+map("n", "ycc", '"yy" . v:count1 . "gcc\']p"', { remap = true, expr = true })
