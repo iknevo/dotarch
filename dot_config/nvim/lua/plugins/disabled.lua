@@ -12,10 +12,6 @@ return {
     enabled = true,
   },
   {
-    "folke/noice.nvim",
-    enabled = true,
-  },
-  {
     "rcarriga/nvim-notify",
     enabled = false,
   },

@@ -3,7 +3,6 @@ return {
   event = "InsertEnter",
   dependencies = {
     "hrsh7th/cmp-nvim-lsp",
-    "hrsh7th/cmp-buffer",
     "hrsh7th/cmp-path",
     {
       "L3MON4D3/LuaSnip",
@@ -11,9 +10,7 @@ return {
     "saadparwaiz1/cmp_luasnip",
     "rafamadriz/friendly-snippets",
     "nvim-treesitter/nvim-treesitter",
-    "onsails/lspkind.nvim",
     "roobert/tailwindcss-colorizer-cmp.nvim",
-    "f3fora/cmp-spell",
   },
   config = function()
     local cmp = require("cmp")
@@ -29,16 +26,15 @@ return {
           border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
         },
         completion = {
-          border = { "┌", "─", "┐", "│", "┘", "─", "└", "│" },
+          -- border = { "┌", "─", "┐", "│", "┘", "─", "└", "│" },
+          border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
         },
       },
       -- autocompletion sources
       sources = cmp.config.sources({
         { name = "nvim_lsp" },
         { name = "luasnip" },
-        { name = "buffer" },
         { name = "path" },
-        { name = "spell", keyword_length = 3 },
       }),
       mapping = cmp.mapping.preset.insert({
         ["<C-j>"] = cmp.mapping.select_next_item(),
@@ -46,8 +42,8 @@ return {
         ["<C-u>"] = cmp.mapping.scroll_docs(-4),
         ["<C-d>"] = cmp.mapping.scroll_docs(4),
         ["<Tab>"] = cmp.mapping.confirm({ select = true }),
-        ["<C-Space>"] = cmp.mapping.complete({}),
         ["<CR>"] = cmp.mapping.confirm({ select = true }),
+        ["<C-Space>"] = cmp.mapping.complete({}),
       }),
     })
   end,
