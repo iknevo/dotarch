@@ -55,3 +55,8 @@ vim.keymap.set("n", "<leader>lw", "<cmd>set wrap!<CR>", { desc = "Toggle line wr
 
 -- Duplicate line and comment the first line
 map("n", "ycc", '"yy" . v:count1 . "gcc\']p"', { remap = true, expr = true })
+
+-- Toggle cursor line
+vim.keymap.set("n", "<leader>ux", function()
+  vim.wo.cursorline = not vim.wo.cursorline
+end, { desc = "Toggle cursor line" })
