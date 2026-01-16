@@ -15,7 +15,7 @@ vim.o.mouse = "a"
 
 vim.o.wildmenu = true
 vim.o.wildmode = "longest:full,full"
-vim.o.completeopt = "menu,menuone,noselect"
+vim.o.completeopt = "menu,menuone,noinsert"
 
 vim.o.updatetime = 300
 vim.o.timeoutlen = 500
@@ -32,10 +32,6 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 vim.opt.spell = true
 vim.opt.spelllang = { "en" }
-
-vim.o.foldmethod = "expr"
-vim.o.foldexpr = "nvim_treesitter#foldexpr()"
-vim.o.foldenable = false
 
 vim.opt.wrap = true
 
