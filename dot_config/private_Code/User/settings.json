@@ -1,11 +1,9 @@
-{ "workbench.colorTheme": "NEVO",
-  
-
+{
+  "workbench.colorTheme": "NEVO",
   "update.mode": "none",
-
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
-    "source.sortImports": "always"
+    "source.sortImports": "always",
   },
   "css.lint.unknownAtRules": "ignore",
   "css.lint.unknownProperties": "ignore",
@@ -57,17 +55,17 @@
   "explorer.openEditors.visible": 4,
   "files.associations": {
     "*.css": "css",
-    "*.svg": "xml"
+    "*.svg": "xml",
   },
   "workbench.editorAssociations": {
-    "*.svg": "default"
+    "*.svg": "default",
   },
   "git.openRepositoryInParentFolders": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "reactSnippets.settings.importReactOnTop": false,
   "scm.diffDecorationsGutterPattern": {
     "added": true,
-    "modified": true
+    "modified": true,
   },
   "scm.diffDecorationsGutterVisibility": "always",
   "scm.diffDecorationsGutterWidth": 1,
@@ -87,13 +85,13 @@
   "vim.sneak": true,
   "vim.smartRelativeLine": true,
   "vscode_custom_css.imports": [
-    "file:///E:/dotfiles/vscode/custom/custom-vscode.css"
+    "file:///E:/dotfiles/vscode/custom/custom-vscode.css",
   ],
   "window.title": "${rootName}${separator}${activeFolderShort}${separator}${activeEditorShort}${separator}${activeEditorState}${separator}${dirty}",
   // "chat.agent.enabled": false,
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}.${extname}",
-    "**/{layout,page}.tsx": "${dirname} ${filename}.${extname}"
+    "**/{layout,page}.tsx": "${dirname} ${filename}.${extname}",
   },
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.empty.hint": "hidden",
@@ -122,11 +120,11 @@
   "editor.mouseWheelZoom": true,
   "window.zoomLevel": 0.8,
   "files.exclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
   },
   "search.searchOnType": false,
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "chat.agent.enabled": false,
@@ -153,8 +151,8 @@
   "vscord.status.state.text.editing": "Editing {file_name}{file_extension}",
   "security.workspace.trust.untrustedFiles": "open",
   "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
+    "asvetliakov.vscode-neovim": 1,
   },
   "svelte.enable-ts-plugin": true,
-  "claudeCode.preferredLocation": "panel"
+  "claudeCode.preferredLocation": "panel",
 }

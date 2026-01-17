@@ -17,6 +17,9 @@ return {
     require("luasnip.loaders.from_vscode").lazy_load()
 
     cmp.setup({
+      formatting = {
+        format = require("tailwindcss-colorizer-cmp").formatter,
+      },
       completion = {
         completeopt = "menu,menuone,noinsert",
       },

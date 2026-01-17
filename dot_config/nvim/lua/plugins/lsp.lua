@@ -11,6 +11,16 @@ return {
     lazy = false,
     opts = {
       auto_install = true,
+      ensure_installed = {
+        "lua_ls",
+        "ts_ls",
+        "cssls",
+        "emmet_language_server",
+        "eslint",
+        "html",
+        "jsonls",
+        "tailwindcss",
+      },
     },
   },
   {
