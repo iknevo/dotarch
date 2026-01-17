@@ -2,7 +2,7 @@ return {
   "nvim-lualine/lualine.nvim",
   dependencies = { "nvim-tree/nvim-web-devicons" },
   config = function()
-    local theme = require("custom.lualine-theme").theme()
+    -- local theme = require("custom.lualine-theme").theme()
 
     require("lualine").setup({
       options = {
@@ -33,6 +33,7 @@ return {
           },
         },
         lualine_x = { "filetype" },
+        lualine_y = { "selectioncount" },
         lualine_z = { "searchcount" },
       },
     })
