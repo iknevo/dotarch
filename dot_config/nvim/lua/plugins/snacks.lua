@@ -1,5 +1,17 @@
 return {
   "folke/snacks.nvim",
+  keys = {
+    { "<leader>fF", false },
+    { "<leader>sC", false },
+    { "<leader><space>", LazyVim.pick("files", { root = false }), desc = "Find Files (cwd)" },
+    {
+      "<leader>sc",
+      function()
+        Snacks.picker.commands()
+      end,
+      desc = "Commands",
+    },
+  },
   opts = {
     picker = {
       sources = {
