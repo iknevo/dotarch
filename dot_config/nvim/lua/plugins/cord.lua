@@ -6,5 +6,8 @@ return {
       theme = "atom",
       flavor = "dark",
     },
+    idle = {
+      enabled = false,
+    },
   },
 }

@@ -13,8 +13,6 @@ vim.o.showmode = false
 
 vim.o.mouse = "a"
 
-vim.opt.cursorline = false
-
 vim.o.wildmenu = true
 vim.o.wildmode = "longest:full,full"
 vim.o.completeopt = "menu,menuone,noinsert"
