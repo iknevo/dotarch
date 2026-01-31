@@ -30,9 +30,6 @@ vim.o.linespace = 2
 vim.o.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
-vim.opt.spell = true
-vim.opt.spelllang = { "en" }
-
 vim.opt.wrap = true
 
 vim.o.foldenable = true

@@ -93,12 +93,14 @@ return {
         tailwindcss = {
           filetypes = {
             "html",
+            "css",
+            "scss",
             "javascript",
             "javascriptreact",
             "typescript",
             "typescriptreact",
-            "astro",
-            "templ",
+            "svelte",
+            "vue",
           },
         },
         emmet_language_server = {

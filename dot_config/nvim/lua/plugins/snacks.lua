@@ -9,7 +9,7 @@ return {
       function()
         Snacks.picker.commands()
       end,
-      desc = "Commands",
+      desc = "Search Commands",
     },
   },
   opts = {
@@ -17,7 +17,7 @@ return {
       sources = {
         files = {
           hidden = false,
-          ignored = true,
+          ignored = false,
           exclude = { "node_modules", ".git", "dist", "build", ".next" },
         },
         grep = {
@@ -26,41 +26,40 @@ return {
           exclude = { "node_modules", ".git", "dist", "build", ".next" },
         },
         explorer = {
+          -- focus = "input",
+          show__modified = true,
+          auto_close = true,
           hidden = false,
           ignored = false,
+          exclude = { "node_modules", ".git" },
           layout = { layout = { position = "right" } },
           -- exclude = { "node_modules", ".git", "dist", "build", ".next" },
-          keys = {
-            ["x"] = {
-              desc = "Cut file",
-              action = function(ctx)
-                local item = ctx:selected() or ctx:current()
-                if not item or not item.path then
-                  vim.notify("No file selected to cut", vim.log.levels.WARN)
-                  return
-                end
-
-                vim.g.snacks_cut_file = item.path
-                vim.notify("Cut: " .. item.path)
-              end,
-            },
-          },
         },
       },
       icons = {
+        modified = "●",
+        readonly = "",
         git = {
-          staged = "●",
-          added = "A",
-          deleted = "D",
-          ignored = "",
-          modified = "M",
-          renamed = "R",
-          untracked = "U",
+          -- staged = "●",
+          -- added = "A",
+          -- deleted = "D",
+          -- ignored = "",
+          -- modified = "M",
+          -- renamed = "R",
+          -- untracked = "U",
+          added = "",
+          modified = "",
+          -- modified = "",
+          deleted = "",
+          renamed = "󰁕",
+          untracked = "",
+          -- unstaged = "",
+          unstaged = "",
+          staged = "",
+          conflict = "",
+          ignored = "",
         },
       },
-    },
-    dashboard = {
-      enabled = false,
     },
   },
 }
