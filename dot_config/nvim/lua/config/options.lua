@@ -32,6 +32,8 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 vim.opt.wrap = true
 
+vim.opt.iskeyword:remove("_")
+
 vim.o.foldenable = true
 vim.o.foldmethod = "manual"
 vim.o.foldlevel = 99
