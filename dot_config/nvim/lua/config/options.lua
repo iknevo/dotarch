@@ -11,7 +11,12 @@ vim.o.linespace = 4
 vim.o.expandtab = true
 vim.o.smartindent = true
 
-vim.opt.scrolloff = 999
+-- vim.opt.scrolloff = 999
+
+vim.opt.virtualedit = "block"
+vim.opt.inccommand = "split"
+vim.opt.ignorecase = true
+vim.opt.termguicolors = true
 
 vim.o.clipboard = "unnamedplus"
 
