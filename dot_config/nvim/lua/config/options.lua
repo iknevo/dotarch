@@ -1,11 +1,17 @@
 vim.o.number = true
 vim.o.relativenumber = true
 
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+
 vim.o.tabstop = 2
 vim.o.softtabstop = 2
 vim.o.shiftwidth = 2
+vim.o.linespace = 4
 vim.o.expandtab = true
 vim.o.smartindent = true
+
+vim.opt.scrolloff = 999
 
 vim.o.clipboard = "unnamedplus"
 
@@ -25,12 +31,10 @@ vim.g.have_nerd_font = true
 vim.o.undofile = true
 vim.o.breakindent = true
 
-vim.o.linespace = 2
-
 vim.o.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
-vim.opt.wrap = true
+vim.opt.wrap = false
 
 vim.opt.iskeyword:remove("_")
 
