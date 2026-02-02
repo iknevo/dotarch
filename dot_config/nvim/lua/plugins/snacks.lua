@@ -4,6 +4,8 @@ return {
     { "<leader>fF", false },
     { "<leader>sC", false },
     { "<leader><space>", LazyVim.pick("files", { root = false }), desc = "Find Files (cwd)" },
+    { "<leader>E", "<leader>fE", desc = "Explorer Snacks (root dir)", remap = true },
+    { "<leader>e", "<leader>fe", desc = "Explorer Snacks (cwd)", remap = true },
     {
       "<leader>sc",
       function()
