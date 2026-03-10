@@ -102,6 +102,15 @@ return {
             "svelte",
             "vue",
           },
+          settings = {
+            tailwindCSS = {
+              experimental = {
+                classRegex = {
+                  'className\\s*=\\s*"([^"]*)"',
+                },
+              },
+            },
+          },
         },
         emmet_language_server = {
           filetypes = {

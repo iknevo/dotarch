@@ -1,5 +1,6 @@
-{ "workbench.colorTheme": "NEVO", 
-  
+{
+  "workbench.colorTheme": "NEVO",
+
   "update.mode": "none",
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
@@ -19,7 +20,7 @@
   // "editor.fontFamily": "Dank Mono",
   "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontSize": 14,
-  "editor.lineHeight": 2.2,
+  "editor.lineHeight": 2.1,
   "editor.fontLigatures": true,
   "editor.glyphMargin": false,
   "editor.guides.bracketPairs": "active",
