@@ -106,7 +106,7 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "git.confirmSync": false,
-  "workbench.editor.showTabs": "none",
+  "workbench.editor.showTabs": "multiple",
   "extensions.ignoreRecommendations": true,
   "editor.unicodeHighlight.invisibleCharacters": false,
   // "chat.commandCenter.enabled": false,
