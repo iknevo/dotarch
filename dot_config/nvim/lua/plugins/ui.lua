@@ -1,5 +1,13 @@
 return {
   {
+    "lukas-reineke/virt-column.nvim",
+    opts = {
+      char = { "┆" },
+      virtcolumn = "100",
+      highlight = { "NonText" },
+    },
+  },
+  {
     "j-hui/fidget.nvim",
     enabled = true,
     opts = {
@@ -30,7 +38,7 @@ return {
   -- filename
   {
     "b0o/incline.nvim",
-    enabled = false,
+    enabled = true,
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
       local devicons = require("nvim-web-devicons")
