@@ -20,6 +20,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 export ATAC_KEY_BINDINGS='~/.config/atac/vim.toml'
 
+set -o vi
+
 function y() {
   local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
   yazi "$@" --cwd-file="$tmp"
