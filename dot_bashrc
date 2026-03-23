@@ -14,6 +14,7 @@ alias mv="bmv"
 alias lg="lazygit"
 alias ld="lazydocker"
 alias t='tmux attach || tmux new -s Coding'
+alias gh-create='gh repo create --private --source=. --remote=origin && git push -u --all && gh browse'
 
 export PATH="$HOME/dotfiles/scripts:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
