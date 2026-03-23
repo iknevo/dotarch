@@ -20,7 +20,14 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 export ATAC_KEY_BINDINGS='~/.config/atac/vim.toml'
 
-set -o vi
+# set -o vi
+
+# for zsh
+# bindkey -M viins '^P' up-line-or-beginning-search
+# bindkey -M viins '^N' down-line-or-beginning-search
+
+# bind '"\C-p": history-search-backward'
+# bind '"\C-n": history-search-forward'
 
 function y() {
   local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
