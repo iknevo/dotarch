@@ -34,7 +34,7 @@ return {
           hidden = true,
           ignored = true,
           exclude = { "node_modules" },
-          layout = { layout = { position = "right" } },
+          layout = { layout = { position = "left", width = 35 } },
           -- exclude = { "node_modules", ".git", "dist", "build", ".next" },
         },
       },
