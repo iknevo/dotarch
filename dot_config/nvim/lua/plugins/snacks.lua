@@ -28,8 +28,9 @@ return {
           exclude = { "node_modules", ".git", "dist", "build", ".next" },
         },
         explorer = {
-          -- focus = "input",
           show__modified = true,
+          replace_netrw = true,
+          trash = true,
           -- auto_close = true,
           hidden = true,
           ignored = true,
