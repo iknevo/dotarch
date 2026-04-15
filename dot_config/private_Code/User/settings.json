@@ -158,4 +158,13 @@
   "svelte.enable-ts-plugin": true,
   "claudeCode.preferredLocation": "panel",
   "chat.viewSessions.orientation": "stacked",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    // "editor.formatOnType": true,
+    // "editor.rulers": [100],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+  },
 }
