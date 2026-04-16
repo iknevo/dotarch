@@ -89,7 +89,6 @@
     "file:///E:/dotfiles/vscode/custom/custom-vscode.css",
   ],
   "window.title": "${rootName}${separator}${activeFolderShort}${separator}${activeEditorShort}${separator}${activeEditorState}${separator}${dirty}",
-  // "chat.agent.enabled": false,
   "workbench.editor.customLabels.patterns": {
     "**/{layout,page}.jsx": "${dirname} ${filename}.${extname}",
     "**/{layout,page}.tsx": "${dirname} ${filename}.${extname}",
@@ -128,8 +127,8 @@
     "javascript": "javascriptreact",
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  // "chat.agent.enabled": false,
-  "chat.agent.enabled": true,
+  "chat.agent.enabled": false,
+  // "chat.agent.enabled": true,
   "chat.commandCenter.enabled": false,
   "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
