@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "NEVO",
+  "workbench.colorTheme": "Catppuccin Mocha",
 
   "update.mode": "none",
   "editor.codeActionsOnSave": {
@@ -81,7 +81,7 @@
   "vim.highlightedyank.textColor": "#000000",
   "vim.hlsearch": false,
   "vim.leader": "<Space>",
-  "vim.useSystemClipboard": false,
+  "vim.useSystemClipboard": true,
   "vim.sneakReplacesF": true,
   "vim.sneak": true,
   "vim.smartRelativeLine": true,
@@ -166,4 +166,6 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off",
   },
+  "chat.disableAIFeatures": true,
+  "dart.checkForSdkUpdates": false,
 }
