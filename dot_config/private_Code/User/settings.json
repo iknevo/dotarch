@@ -166,6 +166,7 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off",
   },
-  "chat.disableAIFeatures": true,
   "dart.checkForSdkUpdates": false,
+  "markdown-preview-enhanced.previewTheme": "vscode.css",
+  "chat.disableAIFeatures": true,
 }

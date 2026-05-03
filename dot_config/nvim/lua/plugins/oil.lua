@@ -1,5 +1,6 @@
 return {
   "stevearc/oil.nvim",
+  enabled = false,
   opts = {},
   lazy = false,
   dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -25,8 +26,8 @@ return {
         winblend = 0,
       },
       keymaps = {
-        ["h"] = { "actions.parent", mode = "n" },
-        ["l"] = { "actions.select", mode = "n" },
+        -- ["h"] = { "actions.parent", mode = "n" },
+        -- ["l"] = { "actions.select", mode = "n" },
         ["q"] = { "actions.close", mode = "n" },
         ["<CR>"] = "actions.select",
         ["<C-p>"] = "actions.preview",

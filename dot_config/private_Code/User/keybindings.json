@@ -275,12 +275,12 @@
   },
   {
     "command": "explorer.newFile",
-    "key": "n",
+    "key": "a",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus",
   },
   {
     "command": "explorer.newFolder",
-    "key": "shift+n",
+    "key": "shift+a",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus",
   },
   {
