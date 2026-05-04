@@ -50,3 +50,6 @@ case ":$PATH:" in
 *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+# export PATH="$PATH:$HOME/.pub-cache/bin"
+export PATH="$HOME/.pub-cache/bin:$PATH"
+export CHROME_EXECUTABLE=/usr/bin/chromium
