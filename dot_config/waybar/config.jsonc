@@ -17,6 +17,7 @@
   ],
   "modules-right": [
     "group/tray-expander",
+    "custom/weather",
     "bluetooth",
     "network",
     "pulseaudio",
