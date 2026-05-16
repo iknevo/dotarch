@@ -53,3 +53,7 @@ esac
 # export PATH="$PATH:$HOME/.pub-cache/bin"
 export PATH="$HOME/.pub-cache/bin:$PATH"
 export CHROME_EXECUTABLE=/usr/bin/chromium
+
+. "$HOME/.local/share/../bin/env"
+
+source '/home/nevo/.bash_completions/greener.sh'
