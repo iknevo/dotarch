@@ -20,6 +20,7 @@ export PATH="$HOME/dotfiles/scripts:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 
 export ATAC_KEY_BINDINGS='~/.config/atac/vim.toml'
+export PATH="/home/nevo/.cache/.bun/bin:$PATH"
 
 # set -o vi
 
