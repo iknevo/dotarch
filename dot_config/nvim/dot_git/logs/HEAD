@@ -69,3 +69,4 @@ c032e593d163795f1343165fa1553a64c8002ec5 c032e593d163795f1343165fa1553a64c8002ec
 c032e593d163795f1343165fa1553a64c8002ec5 f0db7a8a8b192065e440b51e8ac9dd0edb39ec3c iknevo <nevoexists@gmail.com> 1783683803 +0300	reset: moving to f0db7a8a8b192065e440b51e8ac9dd0edb39ec3c
 f0db7a8a8b192065e440b51e8ac9dd0edb39ec3c f0db7a8a8b192065e440b51e8ac9dd0edb39ec3c iknevo <nevoexists@gmail.com> 1783683807 +0300	reset: moving to HEAD
 f0db7a8a8b192065e440b51e8ac9dd0edb39ec3c 51b7003c2093e03bd9562605202fab222d5f888a iknevo <nevoexists@gmail.com> 1783684030 +0300	pull --no-edit: Fast-forward
+51b7003c2093e03bd9562605202fab222d5f888a 820b57a0efcd70501d7edfc3bd70891a371452e7 iknevo <nevoexists@gmail.com> 1784041515 +0300	commit: migrate away from LazyVim
