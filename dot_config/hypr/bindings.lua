@@ -15,6 +15,7 @@ hl.unbind("SUPER + ALT + code:61")
 o.bind("SUPER + SLASH", "Show key bindings", "omarchy-menu-keybindings")
 
 hl.unbind("SUPER + SHIFT + ALT + G")
+hl.unbind("SUPER + SHIFT + G")
 o.bind("SUPER + SHIFT + G", "WhatsApp", 'omarchy-launch-or-focus-webapp WhatsApp "https://web.whatsapp.com/"')
 
 hl.unbind("SUPER + SHIFT + CTRL + G")
@@ -53,6 +54,11 @@ hl.unbind("SUPER + SHIFT + UP")
 hl.unbind("SUPER + SHIFT + DOWN")
 hl.unbind("SUPER + L")
 hl.unbind("SUPER + J")
+
+hl.unbind("SUPER + LEFT")
+hl.unbind("SUPER + RIGHT")
+hl.unbind("SUPER + UP")
+hl.unbind("SUPER + DOWN")
 
 o.bind("SUPER + CTRL + ALT + L", "Toggle workspace layout", "omarchy-hyprland-workspace-layout-toggle")
 
@@ -113,3 +119,4 @@ o.bind("SUPER + CTRL + SHIFT + L", "Lock system", "omarchy-system-lock")
 -- Hardware menu
 
 o.bind("SUPER + CTRL + SHIFT + H", "Hardware menu", "omarchy-menu toggle hardware")
+o.bind("SUPER + ALT + A", "Resume AI Session", "omarchy-shell shell toggle anagrius.resume")

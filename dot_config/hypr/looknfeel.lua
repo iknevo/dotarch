@@ -29,6 +29,9 @@ o.window("initial_class:org.omarchy.btop", {
 o.window(".*", {
 	opacity = "1 0.9",
 })
+
+o.window("org.omarchy.about", { size = { 1070, 800 } })
+
 -- https://wiki.hypr.land/Configuring/Basics/Variables/#animations
 -- hl.config({
 --   animations = {
