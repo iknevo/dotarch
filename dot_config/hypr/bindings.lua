@@ -16,7 +16,12 @@ o.bind("SUPER + SLASH", "Show key bindings", "omarchy-menu-keybindings")
 
 hl.unbind("SUPER + SHIFT + ALT + G")
 hl.unbind("SUPER + SHIFT + G")
+hl.unbind("SUPER + SHIFT + E")
+hl.unbind("SUPER + SHIFT + C")
+
 o.bind("SUPER + SHIFT + G", "WhatsApp", 'omarchy-launch-or-focus-webapp WhatsApp "https://web.whatsapp.com/"')
+o.bind("SUPER + SHIFT + E", "Email", 'omarchy-launch-or-focus-webapp Gmail "https://mail.google.com"')
+o.bind("SUPER + SHIFT + C", "Calendar", 'omarchy-launch-or-focus-webapp Calendar "https://calendar.google.com/"')
 
 hl.unbind("SUPER + SHIFT + CTRL + G")
 

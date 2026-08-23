@@ -27,7 +27,7 @@ o.window("initial_class:org.omarchy.btop", {
 })
 
 o.window(".*", {
-	opacity = "1 0.9",
+	opacity = "1 0.95",
 })
 
 o.window("org.omarchy.about", { size = { 1070, 800 } })
