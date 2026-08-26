@@ -31,11 +31,14 @@ hl.unbind("PRINT")
 hl.unbind("SHIFT + PRINT")
 hl.unbind("ALT + PRINT")
 hl.unbind("SUPER + PRINT")
+hl.unbind("SUPER + CTRL + PRINT")
+hl.unbind("SUPER + SHIFT + ALT + B")
 
 o.bind("SUPER + R", "Screenshot", "omarchy-capture-screenshot")
 o.bind("SUPER + SHIFT + R", "Screenrecording", "omarchy-menu screenrecord")
 o.bind("SUPER + ALT + R", "Color picker", "pkill hyprpicker || hyprpicker -a")
-o.bind("SUPER + SHIFT + T", "Extract text (OCR) from screenshot", "omarchy-capture-text-extraction")
+o.bind("SUPER + SHIFT + T", "Extract text (OCR) from screenshot", "omarchy-capture-text")
+o.bind("SUPER + SHIFT + CTRL + B", "Browser (private)", { omarchy = "browser --private" })
 
 -- Close windows
 
