@@ -69,3 +69,4 @@ export CHROME_EXECUTABLE=/usr/bin/chromium
 . "$HOME/.local/share/../bin/env"
 
 source '/home/nevo/.bash_completions/greener.sh'
+. "$HOME/.cargo/env"
