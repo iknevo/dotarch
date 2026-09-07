@@ -1,0 +1,89 @@
+onboarding = false
+
+[theme]
+name = "vesper"
+[keys]
+# tmux: set -g prefix C-f
+prefix = "ctrl+f"
+
+# tmux: bind R command-prompt ... rename-session (workspace)
+rename_workspace = "prefix+shift+r"
+# tmux: bind N new-session -c (workspace)
+new_workspace = "prefix+shift+n"
+# tmux: bind X kill-session
+close_workspace = "prefix+shift+x"
+
+# tmux: bind n new-window -c (tab)
+new_tab = "prefix+n"
+# tmux: bind r command-prompt ... rename-window
+rename_tab = "prefix+r"
+# tmux: bind Q kill-window
+close_tab = "prefix+shift+q"
+# tmux: bind -n M-H / M-L previous/next-window  (intent: alt+h/l)
+previous_tab = "alt+H"
+next_tab = "alt+L"
+# tmux: bind -n M-1..M-9 select-window
+switch_tab = "alt+1..9"
+# tmux: bind-key 0 last-window  -> closest herdr analog
+last_pane = "prefix+0"
+
+# tmux: bind = split-window -h / bind - split-window -v
+split_vertical = "prefix+="
+split_horizontal = "prefix+-"
+# tmux: bind-key x kill-pane
+close_pane = "prefix+x"
+
+# tmux: bind-key h/j/k/l select-pane + vim-tmux-navigator C-h/j/k/l (keep both)
+focus_pane_left  = ["prefix+h"]
+focus_pane_down  = ["prefix+j"]
+focus_pane_up    = ["prefix+k"]
+focus_pane_right = ["prefix+l"]
+
+# tmux: bind -r H/J/K/L resize-pane ±5  (prefix+shift+h/j/k/l; herdr has no repeat)
+resize_pane_left  = "prefix+shift+h"
+resize_pane_down  = "prefix+shift+j"
+resize_pane_up    = "prefix+shift+k"
+resize_pane_right = "prefix+shift+l"
+# herdr swap-pane defaults on prefix+shift+h/j/k/l moved off those chords
+swap_pane_left  = "prefix+ctrl+h"
+swap_pane_down  = "prefix+ctrl+j"
+swap_pane_up    = "prefix+ctrl+k"
+swap_pane_right = "prefix+ctrl+l"
+
+# tmux: bind-key v copy-mode
+copy_mode = "prefix+v"
+
+# tmux: detach stayed on default d; config reload was q
+detach = "prefix+d"
+reload_config = "prefix+q"
+
+# herdr: toggle sidebar (prefix+p freed from previous_tab, now alt+H)
+toggle_sidebar = "prefix+p"
+
+# tmux: sessionx bound to 'o' -> herdr session navigator
+goto = "prefix+o"
+open_notification_target = "prefix+ctrl+o"
+# herdr resize-mode entry point moved off prefix+r (now rename_tab)
+resize_mode = "prefix+ctrl+r"
+
+# tmux: bind g display-popup -c "#{pane_current_path}" -w 100% -h 100% -E lazygit
+[[keys.command]]
+key = "prefix+g"
+type = "popup"
+command = "lazygit"
+description = "run lazygit"
+width = "100%"
+height = "100%"
+
+# tmux: bind m new-window -n "music" 'rmpc; tmux kill-window'
+[[keys.command]]
+key = "prefix+m"
+type = "popup"
+command = "rmpc"
+description = "music (rmpc)"
+width = "100%"
+height = "100%"
+
+# Notes on non-binding tmux settings (already herdr defaults, no config needed):
+#   set -g mouse on                -> [ui] mouse_capture = true (default)
+#   set-window-option mode-keys vi -> navigate mode uses h/j/k/l by default

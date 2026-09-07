@@ -1,0 +1,33 @@
+2026-06-20T21:32:46.563417Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=126500
+2026-06-20T21:32:46.563449Z  INFO herdr::client: connecting to server path=/home/nevo/.config/herdr/herdr-client.sock
+2026-06-20T21:32:46.712744Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
+2026-06-20T21:33:16.977397Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=127651
+2026-06-20T21:33:16.977433Z  INFO herdr::client: connecting to server path=/home/nevo/.config/herdr/herdr-client.sock
+2026-06-20T21:33:17.071051Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
+2026-06-21T20:18:26.043880Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=19811
+2026-06-21T20:18:26.043929Z  INFO herdr::client: connecting to server path=/home/nevo/.config/herdr/herdr-client.sock
+2026-06-21T20:18:26.098568Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
+2026-06-21T20:21:48.169072Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=19811
+2026-08-26T04:02:58.368293Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=38507
+2026-08-26T04:02:58.368331Z  INFO herdr::client: connecting to server path=/home/nevo/.config/herdr/herdr-client.sock
+2026-08-26T04:02:58.496454Z  INFO herdr::client: handshake succeeded version=20 encoding=SemanticFrame
+2026-08-26T04:03:31.120630Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=38507
+2026-08-26T04:29:55.314541Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=74600
+2026-08-26T04:29:55.314576Z  INFO herdr::client: connecting to server path=/home/nevo/.config/herdr/herdr-client.sock
+2026-08-26T04:29:55.391565Z  INFO herdr::client: handshake succeeded version=20 encoding=SemanticFrame
+2026-08-26T04:29:56.379967Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=74600
+2026-09-07T10:21:46.037655Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=93867
+2026-09-07T10:21:46.037783Z  INFO herdr::client: connecting to server path=/home/nevo/.config/herdr/herdr-client.sock
+2026-09-07T10:21:46.172264Z  INFO herdr::client: handshake succeeded version=20 encoding=SemanticFrame
+2026-09-07T10:23:56.873051Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=93867
+2026-09-07T10:23:59.882780Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=97356
+2026-09-07T10:23:59.882818Z  INFO herdr::client: connecting to server path=/home/nevo/.config/herdr/herdr-client.sock
+2026-09-07T10:24:00.027650Z  INFO herdr::client: handshake succeeded version=20 encoding=SemanticFrame
+2026-09-07T10:24:23.135348Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=97356
+2026-09-07T10:30:03.746378Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=103088
+2026-09-07T10:30:03.746461Z  INFO herdr::client: connecting to server path=/home/nevo/.config/herdr/herdr-client.sock
+2026-09-07T10:30:03.776280Z  INFO herdr::client: handshake succeeded version=20 encoding=SemanticFrame
+2026-09-07T10:32:55.791008Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=103088
+2026-09-07T10:33:04.610092Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=107539
+2026-09-07T10:33:04.610118Z  INFO herdr::client: connecting to server path=/home/nevo/.config/herdr/herdr-client.sock
+2026-09-07T10:33:04.781486Z  INFO herdr::client: handshake succeeded version=20 encoding=SemanticFrame

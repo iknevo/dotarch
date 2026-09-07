@@ -1,0 +1,644 @@
+2026-06-20T21:32:46.513821Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-06-20T21:32:46.514481Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-06-20T21:32:46.551420Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-20T21:32:46.551559Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-06-20T21:32:46.552256Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=126519
+2026-06-20T21:32:46.552367Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-06-20T21:32:46.552376Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-20T21:32:46.552384Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-20T21:32:46.552387Z  INFO herdr::server::headless: created startup workspace cwd=/home/nevo
+2026-06-20T21:32:46.552442Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-06-20T21:32:46.552459Z  INFO herdr::server::headless: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-06-20T21:32:46.552470Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=126501
+2026-06-20T21:32:46.713239Z  INFO herdr::server::headless: client connected client_id=2 cols=144 rows=33 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-20T21:32:50.114226Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(126852)
+2026-06-20T21:32:50.242105Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(126852)
+2026-06-20T21:32:51.554048Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-06-20T21:32:58.085452Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=32 cols=118 scrollback_limit_bytes=10000000
+2026-06-20T21:32:58.088467Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=126962
+2026-06-20T21:32:58.088781Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=2
+2026-06-20T21:32:58.088797Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-20T21:32:58.088813Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-20T21:33:03.093074Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-06-20T21:33:03.161414Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(127260)
+2026-06-20T21:33:07.719829Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-20T21:33:07.719853Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-20T21:33:08.495800Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-20T21:33:08.495818Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-20T21:33:08.896851Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-20T21:33:08.896874Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-20T21:33:09.227769Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-20T21:33:09.227787Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-06-20T21:33:09.567775Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-20T21:33:09.567794Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-06-20T21:33:12.942087Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-06-20T21:33:14.569674Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-06-20T21:33:17.071046Z  INFO herdr::server::headless: client connected client_id=4 cols=144 rows=33 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-20T21:33:22.127960Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-06-20T21:33:26.155002Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-06-20T21:33:26.155124Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=32 cols=118 scrollback_limit_bytes=10000000
+2026-06-20T21:33:26.156185Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=127685
+2026-06-20T21:33:26.156314Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=3
+2026-06-20T21:33:26.156321Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-20T21:33:26.156327Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-20T21:33:26.712616Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-06-20T21:33:27.015797Z  INFO herdr::pane: pane session terminated pane=1 pid=126519 signal=Terminate
+2026-06-20T21:33:27.016807Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-06-20T21:33:27.461301Z  INFO herdr::pane: pane session terminated pane=2 pid=126962 signal=Terminate
+2026-06-20T21:33:27.461491Z  WARN herdr::app::actions: PaneDied for unknown pane pane=1
+2026-06-20T21:33:27.461499Z  WARN herdr::app::actions: PaneDied for unknown pane pane=2
+2026-06-20T21:33:29.987644Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-06-20T21:33:31.159910Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-06-20T22:02:46.553228Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-20T22:32:46.555252Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-20T23:02:46.557018Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-20T23:32:46.558164Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T00:02:46.559548Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T00:32:46.560220Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T01:02:46.561394Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T01:32:46.562557Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T02:02:46.563736Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T02:32:46.565009Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T03:02:46.576658Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T03:32:46.574407Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T04:02:46.576057Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T04:32:46.576729Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T05:02:46.577586Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T05:32:46.578838Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T06:02:46.580171Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T06:32:46.581217Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T07:02:46.582836Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T07:32:46.583595Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T08:02:46.584242Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T08:32:46.586227Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T09:02:46.588330Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T09:32:46.589290Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T20:18:25.944050Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-06-21T20:18:25.949865Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-06-21T20:18:25.950540Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=19826
+2026-06-21T20:18:25.950785Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-06-21T20:18:25.950813Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-06-21T20:18:25.994261Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T20:18:25.994277Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/home/nevo
+2026-06-21T20:18:25.994371Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-06-21T20:18:25.994390Z  INFO herdr::server::headless: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-06-21T20:18:25.994402Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=19812
+2026-06-21T20:18:26.099080Z  INFO herdr::server::headless: client connected client_id=2 cols=144 rows=33 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-21T20:18:46.285458Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="pi"
+2026-06-21T20:18:46.291003Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="claude"
+2026-06-21T20:18:46.291111Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="codex"
+2026-06-21T20:18:46.291119Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-06-21T20:18:46.291159Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="opencode"
+2026-06-21T20:18:48.362467Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-06-21T20:18:48.935377Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-06-21T20:18:49.347502Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-06-21T20:18:49.651204Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-06-21T20:18:50.555402Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-06-21T20:18:55.556937Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-06-21T20:19:26.676995Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(20362)
+2026-06-21T20:20:13.059269Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=32 cols=118 scrollback_limit_bytes=10000000
+2026-06-21T20:20:13.060189Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=20588
+2026-06-21T20:20:13.060380Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w4" pane_id=2
+2026-06-21T20:20:13.060400Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-06-21T20:20:13.060422Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-06-21T20:20:18.063677Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-06-21T20:20:18.133240Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(20859)
+2026-06-21T20:20:25.076225Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=32 cols=118 scrollback_limit_bytes=10000000
+2026-06-21T20:20:25.077524Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=20925
+2026-06-21T20:20:25.077664Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w5" pane_id=3
+2026-06-21T20:20:25.077674Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-06-21T20:20:25.077685Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-06-21T20:20:28.647938Z  INFO herdr::pane: agent changed pane=3 previous_agent=None agent=Some(Codex) process=codex pgid=Some(21193)
+2026-06-21T20:20:30.081993Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=3
+2026-06-21T20:21:28.278294Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-06-21T20:21:28.278312Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-06-21T20:21:31.569237Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-06-21T20:21:31.569254Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-06-21T20:21:32.308219Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-06-21T20:21:32.308242Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-06-21T20:21:33.124382Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-21T20:21:33.124402Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-06-21T20:21:34.321224Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-06-21T20:21:34.321237Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-06-21T20:21:35.029995Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-06-21T20:21:35.030009Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-06-21T20:21:37.070824Z  INFO herdr::pane: agent changed pane=3 previous_agent=Some(Codex) agent=None pgid=Some(20925)
+2026-06-21T20:21:40.031911Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=3
+2026-06-21T20:21:40.765649Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-06-21T20:21:42.582703Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-06-21T20:21:43.334730Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-06-21T20:21:43.334869Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=32 cols=118 scrollback_limit_bytes=10000000
+2026-06-21T20:21:43.335821Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=21509
+2026-06-21T20:21:43.335994Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w6" pane_id=4
+2026-06-21T20:21:43.336000Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-06-21T20:21:43.336006Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-06-21T20:21:43.892603Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-06-21T20:21:43.894424Z  INFO herdr::pane: pane session terminated pane=3 pid=20925 signal=Hangup
+2026-06-21T20:21:43.895339Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-06-21T20:21:44.239972Z  INFO herdr::pane: pane session terminated pane=2 pid=20588 signal=Terminate
+2026-06-21T20:21:44.240925Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-06-21T20:21:44.523844Z  INFO herdr::pane: pane session terminated pane=1 pid=19826 signal=Terminate
+2026-06-21T20:21:44.524121Z  WARN herdr::app::actions: PaneDied for unknown pane pane=3
+2026-06-21T20:21:44.524128Z  WARN herdr::app::actions: PaneDied for unknown pane pane=2
+2026-06-21T20:21:44.524130Z  WARN herdr::app::actions: PaneDied for unknown pane pane=1
+2026-06-21T20:21:44.820523Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-06-21T20:21:44.820659Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=32 cols=118 scrollback_limit_bytes=10000000
+2026-06-21T20:21:44.821493Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=21803
+2026-06-21T20:21:44.821599Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w7" pane_id=5
+2026-06-21T20:21:44.821605Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-06-21T20:21:44.821610Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-06-21T20:21:45.376553Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-06-21T20:21:45.378075Z  INFO herdr::pane: pane session terminated pane=4 pid=21509 signal=Hangup
+2026-06-21T20:21:45.378211Z  WARN herdr::app::actions: PaneDied for unknown pane pane=4
+2026-06-21T20:21:48.168700Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-06-21T20:21:48.169379Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-06-21T20:21:49.824931Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-06-21T20:48:25.995698Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T21:18:25.996305Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T21:48:25.997245Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T22:18:25.999119Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T22:48:26.014983Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T23:18:26.009499Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-21T23:48:26.010463Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T00:18:26.012097Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T00:48:26.013514Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T01:18:26.014727Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T01:48:26.015751Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T02:18:26.016874Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-22T02:48:26.017245Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T04:02:58.319510Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-08-26T04:02:58.320262Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-26T04:02:58.321073Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=38523
+2026-08-26T04:02:58.321187Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-08-26T04:02:58.321200Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-26T04:02:58.352064Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T04:02:58.353239Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/home/nevo/code/tuis/onebox
+2026-08-26T04:02:58.353844Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-08-26T04:02:58.353871Z  INFO herdr::server::headless: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-08-26T04:02:58.354064Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=38509
+2026-08-26T04:02:58.496552Z  INFO herdr::server::headless: client connected client_id=2 cols=143 rows=34 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-26T04:03:31.120419Z  INFO herdr::server::headless: client detached client_id=2
+2026-08-26T04:03:31.121525Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-08-26T04:29:55.391578Z  INFO herdr::server::headless: client connected client_id=4 cols=69 rows=36 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-26T04:29:56.379719Z  INFO herdr::server::headless: client detached client_id=4
+2026-08-26T04:29:56.381109Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-08-26T04:32:58.353615Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T05:02:58.354862Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T05:32:58.356195Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T06:02:58.357790Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T06:32:58.358835Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T07:02:58.361258Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T07:32:58.362386Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T08:02:58.364048Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T08:32:58.365670Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T09:02:58.367042Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T09:32:58.369213Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T10:02:58.370732Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T10:32:58.372187Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T11:02:58.373805Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T11:32:58.374937Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T12:02:58.377258Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T12:32:58.379030Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T12:52:49.952567Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-26T12:52:49.953063Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-26T12:52:50.002740Z  INFO herdr::server::headless: completing server shutdown
+2026-08-26T12:52:50.003027Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-08-26T12:52:50.003035Z  INFO herdr::server::headless: headless server exiting
+2026-08-26T12:52:50.003108Z  INFO herdr::pane: pane session terminated pane=1 pid=38523 signal=Hangup
+2026-08-26T12:52:50.003515Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=38509
+2026-09-07T10:21:45.988679Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-09-07T10:21:45.989398Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-07T10:21:45.990022Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=93882
+2026-09-07T10:21:45.990126Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-09-07T10:21:45.990137Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-09-07T10:21:46.025619Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-07T10:21:46.026990Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/home/nevo
+2026-09-07T10:21:46.028151Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-09-07T10:21:46.028235Z  INFO herdr::server::headless: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-09-07T10:21:46.028491Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=93868
+2026-09-07T10:21:46.172366Z  INFO herdr::server::headless: client connected client_id=2 cols=143 rows=36 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-07T10:23:09.602517Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-09-07T10:23:14.603818Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:23:38.992824Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:23:38.993983Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=96167
+2026-09-07T10:23:38.994112Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w8" pane_id=2
+2026-09-07T10:23:38.994119Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-09-07T10:23:38.994131Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:23:42.051899Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(96813)
+2026-09-07T10:23:43.995794Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:23:46.857657Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-09-07T10:23:46.857694Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-09-07T10:23:47.326596Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-09-07T10:23:47.326736Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:23:47.947949Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-09-07T10:23:47.947979Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-09-07T10:23:49.078212Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-09-07T10:23:49.078299Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:23:54.080282Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:23:56.872717Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-09-07T10:23:56.874498Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-09-07T10:24:00.027677Z  INFO herdr::server::headless: client connected client_id=4 cols=143 rows=36 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-07T10:24:05.276157Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:24:05.277196Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=97445
+2026-09-07T10:24:05.277284Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-09-07T10:24:06.328796Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:24:06.732793Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-09-07T10:24:08.720732Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:24:08.722048Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=98080
+2026-09-07T10:24:08.722186Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t3"
+2026-09-07T10:24:09.726638Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-09-07T10:24:10.184838Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:24:10.671949Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t3"
+2026-09-07T10:24:11.721796Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:24:16.722778Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:24:23.135058Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-09-07T10:24:23.136343Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-09-07T10:30:03.776298Z  INFO herdr::server::headless: client connected client_id=6 cols=143 rows=36 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-07T10:30:07.570985Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(OpenCode) agent=None pgid=Some(96167)
+2026-09-07T10:32:55.790610Z  INFO herdr::server::headless: client detach requested via keybind client_id=6
+2026-09-07T10:32:55.792011Z  INFO herdr::server::headless: client disconnected client_id=6
+2026-09-07T10:33:03.242998Z  INFO herdr::server::headless: server shutdown initiated
+2026-09-07T10:33:03.293080Z  INFO herdr::server::headless: completing server shutdown
+2026-09-07T10:33:03.293332Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:33:03.293341Z  INFO herdr::server::headless: headless server exiting
+2026-09-07T10:33:03.294789Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:33:03.297119Z  INFO herdr::pane: pane session terminated pane=2 pid=96167 signal=Hangup
+2026-09-07T10:33:03.298034Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:33:03.300177Z  INFO herdr::pane: pane session terminated pane=1 pid=93882 signal=Hangup
+2026-09-07T10:33:03.300857Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:33:03.303206Z  INFO herdr::pane: pane session terminated pane=4 pid=98080 signal=Hangup
+2026-09-07T10:33:03.303912Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:33:03.306233Z  INFO herdr::pane: pane session terminated pane=3 pid=97445 signal=Hangup
+2026-09-07T10:33:03.306702Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=93868
+2026-09-07T10:33:04.560994Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-09-07T10:33:04.561667Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-07T10:33:04.562371Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=107554
+2026-09-07T10:33:04.562601Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-07T10:33:04.563224Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=107557
+2026-09-07T10:33:04.563415Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-07T10:33:04.564070Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=107560
+2026-09-07T10:33:04.564227Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-09-07T10:33:04.564878Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=107563
+2026-09-07T10:33:04.565024Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=2
+2026-09-07T10:33:04.565039Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-09-07T10:33:04.603646Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-07T10:33:04.605600Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/home/nevo
+2026-09-07T10:33:04.605679Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-09-07T10:33:04.605707Z  INFO herdr::server::headless: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-09-07T10:33:04.605859Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=107540
+2026-09-07T10:33:04.781584Z  INFO herdr::server::headless: client connected client_id=2 cols=143 rows=36 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-07T10:33:13.998760Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="pi"
+2026-09-07T10:33:13.998780Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:13.998962Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="claude"
+2026-09-07T10:33:13.999138Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="codex"
+2026-09-07T10:33:13.999149Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:13.999351Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="opencode"
+2026-09-07T10:33:13.999359Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:14.607539Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:14.607561Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:14.607567Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:15.180523Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:15.180544Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:15.180550Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:15.377580Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:15.377606Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:15.377612Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:15.397776Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:15.397801Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:15.397807Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:15.417728Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:15.417751Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:15.417757Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:15.437832Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:15.437870Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:15.437878Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:15.457730Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:15.457752Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:15.457758Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:15.477729Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:15.477772Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:15.477778Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:15.497917Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:15.497957Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:15.497963Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:15.833759Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:15.833780Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:15.833786Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:16.039644Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:16.039675Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:16.039685Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:16.245556Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="omp"
+2026-09-07T10:33:16.245577Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="copilot"
+2026-09-07T10:33:16.245583Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="grok"
+2026-09-07T10:33:21.247246Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:33:52.644720Z  WARN herdr::app: unknown theme, falling back theme="versper" fallback="catppuccin"
+2026-09-07T10:33:52.644838Z  WARN herdr::app: unknown theme, falling back theme="versper" fallback="catppuccin"
+2026-09-07T10:34:46.882611Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:34:46.883584Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=109893
+2026-09-07T10:34:46.883678Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t4"
+2026-09-07T10:34:48.343047Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:34:48.345263Z  INFO herdr::pane: pane session terminated pane=5 pid=109893 signal=Hangup
+2026-09-07T10:34:48.345439Z  WARN herdr::app::actions: PaneDied for unknown pane pane=5
+2026-09-07T10:34:49.147723Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:34:49.149768Z  INFO herdr::pane: pane session terminated pane=4 pid=107563 signal=Hangup
+2026-09-07T10:34:49.149893Z  WARN herdr::app::actions: PaneDied for unknown pane pane=4
+2026-09-07T10:34:49.819821Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:34:49.822076Z  INFO herdr::pane: pane session terminated pane=3 pid=107560 signal=Hangup
+2026-09-07T10:34:49.822200Z  WARN herdr::app::actions: PaneDied for unknown pane pane=3
+2026-09-07T10:34:54.824140Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:34:57.140969Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:34:57.142105Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=110579
+2026-09-07T10:34:57.142196Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:35:01.115771Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:35:02.306829Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:35:03.202019Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:35:03.890670Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:35:04.544723Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:35:09.545644Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:37:40.691030Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:37:45.692561Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:37:54.164500Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(112732)
+2026-09-07T10:38:17.152853Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(112732)
+2026-09-07T10:38:22.112340Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:40:57.211054Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:40:58.499843Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:40:59.225278Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:00.101691Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:41:05.102834Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:41:07.621863Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-09-07T10:41:07.621891Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-09-07T10:41:09.794847Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-09-07T10:41:09.794882Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:41:13.010642Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-09-07T10:41:13.010682Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-09-07T10:41:16.528660Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-09-07T10:41:16.529416Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:41:16.532276Z  INFO herdr::pane: pane session terminated pane=1 pid=107554 signal=Hangup
+2026-09-07T10:41:16.532514Z  WARN herdr::app::actions: PaneDied for unknown pane pane=1
+2026-09-07T10:41:21.533581Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:41:29.645150Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:34.647027Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:41:34.907621Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:41:34.908710Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=115673
+2026-09-07T10:41:34.908816Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:36.661774Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=18 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:41:36.662782Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=116301
+2026-09-07T10:41:36.662894Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:39.902673Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:40.350427Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:40.931729Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:41.155582Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:42.042434Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:42.247935Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:42.480437Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:43.098624Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:43.707401Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:43.895500Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:44.065455Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:44.217320Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:41:45.640996Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:41:45.643401Z  INFO herdr::pane: pane session terminated pane=7 pid=115673 signal=Hangup
+2026-09-07T10:41:45.643535Z  WARN herdr::app::actions: PaneDied for unknown pane pane=7
+2026-09-07T10:41:46.599092Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:41:46.601713Z  INFO herdr::pane: pane session terminated pane=8 pid=116301 signal=Hangup
+2026-09-07T10:41:46.601835Z  WARN herdr::app::actions: PaneDied for unknown pane pane=8
+2026-09-07T10:41:47.914562Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:41:52.916084Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:42:33.265358Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:42:34.607232Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:42:35.252365Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:42:36.067279Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:42:36.720245Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:42:37.651249Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:42:42.653649Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:51:46.474018Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-09-07T10:51:46.474443Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-09-07T10:52:26.664392Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:52:30.937948Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:52:30.941164Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=126592
+2026-09-07T10:52:30.943214Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:52:32.867345Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:52:33.324482Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:52:33.664580Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:52:33.843573Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:52:38.391603Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:52:38.785592Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:52:38.973892Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:52:39.214803Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:52:39.375581Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:52:39.832616Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:52:40.226841Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:52:45.228254Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:53:00.233519Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:00.591392Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:53:01.880561Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:02.032622Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:53:02.802595Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:02.954729Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:53:03.447515Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:03.590760Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:53:04.091609Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:04.235879Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:53:04.655539Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:04.807582Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:53:07.278300Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=33 cols=114 scrollback_limit_bytes=10000000
+2026-09-07T10:53:07.279368Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=128358
+2026-09-07T10:53:09.808912Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:53:11.201345Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=10 status="ExitStatus { code: 0, signal: None }"
+2026-09-07T10:53:11.201464Z  INFO herdr::pane: pane session terminated pane=10 pid=128358 signal=Hangup
+2026-09-07T10:53:13.518772Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:14.305467Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:53:18.020917Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=33 cols=114 scrollback_limit_bytes=10000000
+2026-09-07T10:53:18.021964Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=128606
+2026-09-07T10:53:19.307564Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:53:20.753217Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=11 status="ExitStatus { code: 0, signal: None }"
+2026-09-07T10:53:20.753544Z  INFO herdr::pane: pane session terminated pane=11 pid=128606 signal=Hangup
+2026-09-07T10:53:22.801678Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:22.989780Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:53:25.254714Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:30.255899Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:53:36.605491Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:53:38.520660Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=12 rows=15 cols=55 scrollback_limit_bytes=10000000
+2026-09-07T10:53:38.521666Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=12 pid=128845
+2026-09-07T10:53:40.923233Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=12 status="ExitStatus { code: 0, signal: None }"
+2026-09-07T10:53:40.923295Z  INFO herdr::pane: pane session terminated pane=12 pid=128845 signal=Hangup
+2026-09-07T10:53:41.606629Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:53:42.549815Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:53:42.701454Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:53:47.702522Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:53:58.653965Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:54:03.656036Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:54:09.010592Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:54:09.189779Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:54:09.386355Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:54:09.941971Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:54:13.280925Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:54:13.755600Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:54:14.229975Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:54:14.704740Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:54:15.205985Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:54:15.752036Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:54:19.144422Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:54:21.460494Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-09-07T10:54:21.460950Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-09-07T10:54:22.913485Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=13 rows=33 cols=114 scrollback_limit_bytes=10000000
+2026-09-07T10:54:22.914740Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=13 pid=129235
+2026-09-07T10:54:24.146011Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:54:25.447702Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=13 status="ExitStatus { code: 0, signal: None }"
+2026-09-07T10:54:25.447809Z  INFO herdr::pane: pane session terminated pane=13 pid=129235 signal=Hangup
+2026-09-07T10:54:28.892798Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:54:33.894540Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:54:34.559887Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:54:35.382673Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=14 rows=33 cols=136 scrollback_limit_bytes=10000000
+2026-09-07T10:54:35.383864Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=14 pid=129336
+2026-09-07T10:54:38.801991Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=14 status="ExitStatus { code: 0, signal: None }"
+2026-09-07T10:54:38.802077Z  INFO herdr::pane: pane session terminated pane=14 pid=129336 signal=Hangup
+2026-09-07T10:54:39.561514Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:54:44.379641Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:54:44.567632Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:54:49.569121Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:54:59.570998Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:54:59.758926Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-09-07T10:55:04.760568Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:55:15.319090Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=9 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:55:15.321614Z  INFO herdr::pane: pane session terminated pane=9 pid=126592 signal=Hangup
+2026-09-07T10:55:15.321848Z  WARN herdr::app::actions: PaneDied for unknown pane pane=9
+2026-09-07T10:55:17.250803Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:55:22.252084Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:55:26.148760Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:55:26.972929Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:55:27.313036Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:55:32.315559Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:55:33.462927Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=15 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:55:33.464034Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=15 pid=130620
+2026-09-07T10:55:33.464134Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t7"
+2026-09-07T10:55:34.357719Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=16 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:55:34.358847Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=16 pid=131236
+2026-09-07T10:55:34.359003Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w9" pane_id=16
+2026-09-07T10:55:34.359013Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-09-07T10:55:34.359027Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-09-07T10:55:35.826112Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=17 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:55:35.827426Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=17 pid=131862
+2026-09-07T10:55:35.827646Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wA" pane_id=17
+2026-09-07T10:55:35.827656Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-09-07T10:55:35.827691Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-09-07T10:55:40.829902Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=3
+2026-09-07T10:55:41.931141Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-09-07T10:55:41.931892Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=17 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:55:41.934014Z  INFO herdr::pane: pane session terminated pane=17 pid=131862 signal=Hangup
+2026-09-07T10:55:41.934119Z  WARN herdr::app::actions: PaneDied for unknown pane pane=17
+2026-09-07T10:55:46.254949Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-09-07T10:55:46.255607Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=16 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-07T10:55:46.257871Z  INFO herdr::pane: pane session terminated pane=16 pid=131236 signal=Hangup
+2026-09-07T10:55:46.258014Z  WARN herdr::app::actions: PaneDied for unknown pane pane=16
+2026-09-07T10:55:47.356000Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:55:47.499814Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-09-07T10:55:48.162009Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:55:53.164058Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-09-07T10:56:29.537675Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=18 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T10:56:29.539098Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=18 pid=133025
+2026-09-07T10:56:29.539238Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wB" pane_id=18
+2026-09-07T10:56:29.539249Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-09-07T10:56:29.539269Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T10:56:34.540863Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T10:57:10.554862Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-09-07T10:57:10.554916Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:57:14.940761Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-09-07T10:57:14.940795Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T10:57:17.908896Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-09-07T10:57:17.908933Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:57:18.743936Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-09-07T10:57:18.743984Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T10:57:19.488937Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-09-07T10:57:19.488972Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T10:57:19.949932Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-09-07T10:57:19.949968Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T10:57:24.951552Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:03:04.605468Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-07T11:08:03.672563Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-09-07T11:08:03.672606Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T11:08:04.820509Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-09-07T11:08:04.820569Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T11:08:09.822531Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:08:17.515748Z  INFO herdr::pane: agent changed pane=18 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(140849)
+2026-09-07T11:08:25.767087Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:08:36.098603Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-09-07T11:08:36.098660Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T11:08:41.100306Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:08:49.112107Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-09-07T11:08:49.112133Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-09-07T11:08:50.122160Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-09-07T11:08:50.122209Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T11:08:55.124186Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:09:17.744183Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=19 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T11:09:17.745590Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=19 pid=142831
+2026-09-07T11:09:17.745724Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:09:17.745766Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:09:22.747048Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:09:35.647742Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=20 rows=35 cols=117 scrollback_limit_bytes=10000000
+2026-09-07T11:09:35.648897Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=20 pid=143769
+2026-09-07T11:09:35.649062Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T11:09:40.650837Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:09:49.012904Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:09:49.621678Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T11:09:54.624221Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:10:06.899118Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:10:07.114362Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T11:10:12.116091Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:10:37.605038Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:10:37.783858Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T11:10:42.784519Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:11:08.419537Z  INFO herdr::pane: agent changed pane=18 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(140849)
+2026-09-07T11:23:09.280415Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:23:10.059684Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T11:23:15.060754Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:25:27.587804Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:25:28.500611Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T11:25:29.784191Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:25:30.640000Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T11:25:35.641630Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:29:57.585313Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:29:57.755107Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T11:30:02.757454Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:30:37.456747Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:30:38.020908Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T11:30:38.898962Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T11:30:39.739781Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T11:30:44.741499Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T11:33:04.606738Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-07T11:53:38.976651Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=21 rows=33 cols=136 scrollback_limit_bytes=10000000
+2026-09-07T11:53:38.978225Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=21 pid=170593
+2026-09-07T11:53:44.423704Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=21 status="ExitStatus { code: 0, signal: None }"
+2026-09-07T11:53:44.423804Z  INFO herdr::pane: pane session terminated pane=21 pid=170593 signal=Hangup
+2026-09-07T11:53:46.769023Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=22 rows=33 cols=136 scrollback_limit_bytes=10000000
+2026-09-07T11:53:46.770637Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=22 pid=170639
+2026-09-07T11:53:47.648453Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=22 status="ExitStatus { code: 0, signal: None }"
+2026-09-07T11:53:47.649889Z  INFO herdr::pane: pane session terminated pane=22 pid=170639 signal=Hangup
+2026-09-07T12:03:04.608293Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-07T12:23:02.680754Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T12:23:03.577684Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T12:23:08.571990Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T12:23:09.407695Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T12:23:14.409190Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T12:33:04.609750Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-07T12:43:21.026588Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T12:43:21.635567Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T12:43:22.217563Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T12:43:22.888590Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T12:43:27.890693Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T12:43:50.540605Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T12:43:51.328549Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T12:43:56.330620Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T12:59:04.464033Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T12:59:04.867175Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T12:59:09.868833Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T13:01:28.151849Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-09-07T13:01:28.618662Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T13:01:31.853661Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t3"
+2026-09-07T13:01:32.548770Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-09-07T13:01:37.549946Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
+2026-09-07T13:03:04.610924Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-07T13:17:28.914292Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=23 rows=35 cols=139 scrollback_limit_bytes=10000000
+2026-09-07T13:17:28.915734Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=23 pid=207167
+2026-09-07T13:17:28.915845Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t4"
+2026-09-07T13:17:33.918033Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=2
