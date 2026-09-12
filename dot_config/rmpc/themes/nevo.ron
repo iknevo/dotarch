@@ -101,8 +101,8 @@
             content: [
                 (kind: Text("[ "), style: (fg: "#4c566a", modifiers: "Bold")),
                 (kind: Property(Status(StateV2(
-                    playing_label: "󰐊",
-                    paused_label: "󰏤",
+                    playing_label: "󰏤",
+                    paused_label: "󰐊",
                     stopped_label: "󰓛",
                 ))), style: (fg: "#fca311", modifiers: "Bold")),
                 (kind: Text(" ]"), style: (fg: "#4c566a", modifiers: "Bold")),
