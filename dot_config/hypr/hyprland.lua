@@ -27,3 +27,10 @@ require("default.hypr.toggles")
 
 -- Add any other personal Hyprland configuration below.
 -- o.window("qemu", { workspace = "5" })
+
+-- >>> io.github.yashasewi.trackpad-input-controls managed include >>>
+require("default.hypr.require_optional").module("hypr.trackpad_input_controls")
+-- <<< io.github.yashasewi.trackpad-input-controls managed include <<<
+
+-- Added by hyprmoncfg: its generated monitor rules load last, so nothing before this can override the applied layout.
+do local path = os.getenv("HOME") .. "/.config/hypr/hyprmoncfg-monitors.lua"; local file = io.open(path, "r"); if file then file:close(); dofile(path) end end
