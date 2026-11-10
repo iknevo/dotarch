@@ -33,6 +33,9 @@ hl.unbind("ALT + PRINT")
 hl.unbind("SUPER + PRINT")
 hl.unbind("SUPER + CTRL + PRINT")
 hl.unbind("SUPER + SHIFT + ALT + B")
+hl.unbind("SUPER + CTRL + T")
+hl.unbind("SUPER + CTRL + W")
+hl.unbind("SUPER + SHIFT + T")
 
 o.bind("SUPER + R", "Screenshot", "omarchy-capture-screenshot")
 o.bind(
@@ -40,9 +43,21 @@ o.bind(
 	"Screenrecording",
 	"omarchy-capture-screenrecording --stop-recording || omarchy-menu toggle trigger.capture.screenrecord"
 )
+
+hl.unbind("SUPER + grave")
+hl.unbind("SUPER + SHIFT + grave")
+
+o.bind("SUPER + CTRL + T", "Activity", { tui = "btop" })
 o.bind("SUPER + ALT + R", "Color picker", "pkill hyprpicker || hyprpicker -a")
 o.bind("SUPER + SHIFT + T", "Extract text (OCR) from screenshot", "omarchy-capture-text")
 o.bind("SUPER + SHIFT + CTRL + B", "Browser (private)", { omarchy = "browser --private" })
+
+o.bind("SUPER + SHIFT + BACKSLASH", "Toggle Quake console", hl.dsp.workspace.toggle_special("qconsole"))
+o.bind(
+	"SUPER + ALT + BACKSLASH",
+	"Move window to Quake console",
+	hl.dsp.window.move({ workspace = "special:qconsole", follow = false })
+)
 
 -- Close windows
 
