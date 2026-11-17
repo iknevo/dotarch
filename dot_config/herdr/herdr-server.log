@@ -732,3 +732,303 @@
 2026-09-07T15:43:39.536963Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=27 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
 2026-09-07T15:43:39.538828Z  INFO herdr::pane: pane session terminated pane=27 pid=324745 signal=Hangup
 2026-09-07T15:43:39.539647Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=107540
+2026-11-10T18:25:54.904168Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-10T18:25:54.906040Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-10T18:25:54.906669Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1819
+2026-11-10T18:25:54.906796Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-10T18:25:54.906806Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-10T18:25:54.955158Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-10T18:25:54.955418Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-10T18:25:54.955449Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-10T18:25:54.955521Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1288
+2026-11-10T18:25:55.332936Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-10T18:25:55.332968Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-10T18:25:55.333102Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-10T19:23:57.156290Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-10T19:23:57.206381Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-10T19:23:57.206661Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-10T19:23:57.206672Z  INFO herdr::server::headless: headless server exiting
+2026-11-10T19:23:57.207078Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-10T19:23:57.209021Z  INFO herdr::pane: pane session terminated pane=1 pid=1819 signal=Hangup
+2026-11-10T19:23:57.209306Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1288
+2026-11-11T04:16:59.771282Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-11T04:16:59.772540Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-11T04:16:59.773375Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1799
+2026-11-11T04:16:59.773545Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-11T04:16:59.773560Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-11T04:16:59.835257Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-11T04:16:59.835516Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-11T04:16:59.835549Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-11T04:16:59.835619Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1275
+2026-11-11T04:17:00.165410Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-11T04:17:00.165424Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-11T04:17:00.165839Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-11T08:18:25.624988Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-11T08:18:25.688383Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-11T08:18:25.690386Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-11T08:18:25.690462Z  INFO herdr::server::headless: headless server exiting
+2026-11-11T08:18:25.691352Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-11T08:18:25.692571Z  INFO herdr::pane: pane session terminated pane=1 pid=1799 signal=Hangup
+2026-11-11T08:18:25.693024Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1275
+2026-11-12T04:23:06.344142Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-12T04:23:06.345665Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-12T04:23:06.346482Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1820
+2026-11-12T04:23:06.346641Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-12T04:23:06.346652Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-12T04:23:06.424004Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-12T04:23:06.424387Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-12T04:23:06.424432Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-12T04:23:06.424516Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1301
+2026-11-12T04:23:07.772428Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-12T04:23:07.772448Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-12T04:23:07.772674Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-12T16:00:41.588349Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-12T16:00:41.649241Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-12T16:00:41.649563Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-12T16:00:41.649639Z  INFO herdr::server::headless: headless server exiting
+2026-11-12T16:00:41.652351Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-12T16:00:41.652869Z  INFO herdr::pane: pane session terminated pane=1 pid=1820 signal=Hangup
+2026-11-12T16:00:41.653545Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1301
+2026-11-13T03:04:14.600073Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-13T03:04:14.601318Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-13T03:04:14.601938Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1816
+2026-11-13T03:04:14.602057Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-13T03:04:14.602065Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-13T03:04:14.658808Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-13T03:04:14.659047Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-13T03:04:14.659073Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-13T03:04:14.659206Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1298
+2026-11-13T03:04:15.390629Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-13T03:04:15.390653Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-13T03:04:15.391622Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-13T06:17:16.207607Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-13T06:17:16.258355Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-13T06:17:16.259073Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-13T06:17:16.259088Z  INFO herdr::server::headless: headless server exiting
+2026-11-13T06:17:16.259510Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-13T06:17:16.261664Z  INFO herdr::pane: pane session terminated pane=1 pid=1816 signal=Hangup
+2026-11-13T06:17:16.263024Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1298
+2026-11-13T06:40:11.826751Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-13T06:40:11.827939Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-13T06:40:11.828633Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1812
+2026-11-13T06:40:11.828796Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-13T06:40:11.828808Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-13T06:40:11.884947Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-13T06:40:11.885288Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-13T06:40:11.885330Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-13T06:40:11.885415Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1291
+2026-11-13T06:40:12.357422Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-13T06:40:12.357437Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-13T06:40:12.357593Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-13T09:10:17.071667Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-13T09:10:17.132930Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-13T09:10:17.133252Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-13T09:10:17.133265Z  INFO herdr::server::headless: headless server exiting
+2026-11-13T09:10:17.134514Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-13T09:10:17.136624Z  INFO herdr::pane: pane session terminated pane=1 pid=1812 signal=Hangup
+2026-11-13T09:10:17.144105Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1291
+2026-11-13T14:20:20.755953Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-13T14:20:20.757175Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-13T14:20:20.757880Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1790
+2026-11-13T14:20:20.758041Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-13T14:20:20.758057Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-13T14:20:20.819873Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-13T14:20:20.820260Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-13T14:20:20.820305Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-13T14:20:20.820415Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1282
+2026-11-13T14:20:21.444825Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-13T14:20:21.444853Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-13T14:20:21.445196Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-13T20:20:35.252281Z  WARN herdr::detect::manifest_update: agent detection manifest update failed: failed to fetch https://herdr.dev/agent-detection/index.toml
+2026-11-13T22:27:04.880610Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-13T22:27:04.930713Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-13T22:27:04.931034Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-13T22:27:04.931047Z  INFO herdr::server::headless: headless server exiting
+2026-11-13T22:27:04.931539Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-13T22:27:04.934184Z  INFO herdr::pane: pane session terminated pane=1 pid=1790 signal=Hangup
+2026-11-13T22:27:04.934580Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1282
+2026-11-14T05:26:43.089462Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-14T05:26:43.090755Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-14T05:26:43.091363Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1791
+2026-11-14T05:26:43.091509Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-14T05:26:43.091519Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-14T05:26:43.149139Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-14T05:26:43.149428Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-14T05:26:43.149460Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-14T05:26:43.149536Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1279
+2026-11-14T05:26:43.411000Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-14T05:26:43.411021Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-14T05:26:43.411253Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-14T07:28:44.365795Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-14T07:28:44.416079Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-14T07:28:44.416358Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-14T07:28:44.416374Z  INFO herdr::server::headless: headless server exiting
+2026-11-14T07:28:44.416827Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-14T07:28:44.418651Z  INFO herdr::pane: pane session terminated pane=1 pid=1791 signal=Hangup
+2026-11-14T07:28:44.418964Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1279
+2026-11-14T08:41:32.247149Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-14T08:41:32.248437Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-14T08:41:32.249080Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1808
+2026-11-14T08:41:32.249216Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-14T08:41:32.249230Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-14T08:41:32.307930Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-14T08:41:32.308282Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-14T08:41:32.308319Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-14T08:41:32.308399Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1281
+2026-11-14T08:41:32.671882Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-14T08:41:32.671902Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-14T08:41:32.672105Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-14T18:27:30.512970Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-14T18:27:30.569934Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-14T18:27:30.572705Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-14T18:27:30.572765Z  INFO herdr::server::headless: headless server exiting
+2026-11-14T18:27:30.573943Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-14T18:27:30.575682Z  INFO herdr::pane: pane session terminated pane=1 pid=1808 signal=Hangup
+2026-11-14T18:27:30.576152Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1281
+2026-11-14T19:52:58.383391Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-14T19:52:58.384727Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-14T19:52:58.385366Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1805
+2026-11-14T19:52:58.385489Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-14T19:52:58.385500Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-14T19:52:58.447996Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-14T19:52:58.448286Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-14T19:52:58.448314Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-14T19:52:58.448397Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1292
+2026-11-14T19:52:59.172077Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-14T19:52:59.172101Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-14T19:52:59.172388Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-14T21:30:16.171173Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-14T21:30:16.221266Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-14T21:30:16.221610Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-14T21:30:16.221630Z  INFO herdr::server::headless: headless server exiting
+2026-11-14T21:30:16.222070Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-14T21:30:16.225070Z  INFO herdr::pane: pane session terminated pane=1 pid=1805 signal=Hangup
+2026-11-14T21:30:16.225482Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1292
+2026-11-15T07:19:17.859367Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-15T07:19:17.860566Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-15T07:19:17.861209Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1820
+2026-11-15T07:19:17.861334Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-15T07:19:17.861346Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-15T07:19:17.919518Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-15T07:19:17.919876Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-15T07:19:17.919915Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-15T07:19:17.920001Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1294
+2026-11-15T07:19:18.316162Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-15T07:19:18.316179Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-15T07:19:18.316341Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-15T08:19:21.750960Z  WARN herdr::detect::manifest_update: agent detection manifest update failed: failed to fetch https://herdr.dev/agent-detection/index.toml
+2026-11-15T08:49:21.751776Z  WARN herdr::detect::manifest_update: agent detection manifest update failed: failed to fetch https://herdr.dev/agent-detection/index.toml
+2026-11-15T13:12:28.358203Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-15T13:12:28.414464Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-15T13:12:28.416325Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-15T13:12:28.416426Z  INFO herdr::server::headless: headless server exiting
+2026-11-15T13:12:28.417303Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-15T13:12:28.418586Z  INFO herdr::pane: pane session terminated pane=1 pid=1820 signal=Hangup
+2026-11-15T13:12:28.419038Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1294
+2026-11-15T14:49:36.022875Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-15T14:49:36.024192Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-15T14:49:36.024822Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1797
+2026-11-15T14:49:36.024951Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-15T14:49:36.024963Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-15T14:49:36.084979Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-15T14:49:36.085167Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-15T14:49:36.085216Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-15T14:49:36.085321Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1281
+2026-11-15T14:49:36.522609Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-15T14:49:36.522626Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-15T14:49:36.523090Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-15T18:59:33.201193Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-15T18:59:33.251446Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-15T18:59:33.251769Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-15T18:59:33.251786Z  INFO herdr::server::headless: headless server exiting
+2026-11-15T18:59:33.252257Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-15T18:59:33.255255Z  INFO herdr::pane: pane session terminated pane=1 pid=1797 signal=Hangup
+2026-11-15T18:59:33.256278Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1281
+2026-11-15T21:11:34.592951Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-15T21:11:34.594561Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-15T21:11:34.595367Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1818
+2026-11-15T21:11:34.595497Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-15T21:11:34.595506Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-15T21:11:34.649535Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-15T21:11:34.649884Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-15T21:11:34.649922Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-15T21:11:34.650008Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1294
+2026-11-15T21:11:34.978924Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-15T21:11:34.978940Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-15T21:11:34.979099Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-16T00:27:47.411880Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-16T00:27:47.472105Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-16T00:27:47.475595Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-16T00:27:47.475627Z  INFO herdr::server::headless: headless server exiting
+2026-11-16T00:27:47.476359Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-16T00:27:47.477861Z  INFO herdr::pane: pane session terminated pane=1 pid=1818 signal=Hangup
+2026-11-16T00:27:47.478154Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1294
+2026-11-16T08:08:46.086553Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-16T08:08:46.087956Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-16T08:08:46.088693Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1805
+2026-11-16T08:08:46.088823Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-16T08:08:46.088833Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-16T08:08:46.154020Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-16T08:08:46.154310Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-16T08:08:46.154345Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-16T08:08:46.154430Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1278
+2026-11-16T08:08:46.469758Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-16T08:08:46.469774Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-16T08:08:46.470110Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-16T11:12:49.518688Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-16T11:12:49.568930Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-16T11:12:49.569224Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-16T11:12:49.569239Z  INFO herdr::server::headless: headless server exiting
+2026-11-16T11:12:49.569665Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-16T11:12:49.571420Z  INFO herdr::pane: pane session terminated pane=1 pid=1805 signal=Hangup
+2026-11-16T11:12:49.573317Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1278
+2026-11-16T12:23:00.992365Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-16T12:23:00.993502Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-16T12:23:00.994172Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1824
+2026-11-16T12:23:00.994327Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-16T12:23:00.994338Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-16T12:23:01.049299Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-16T12:23:01.049809Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-16T12:23:01.049866Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-16T12:23:01.049968Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1287
+2026-11-16T12:23:01.445573Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-16T12:23:01.445588Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-16T12:23:01.445758Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-16T17:17:51.345849Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-16T17:17:51.398625Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-16T17:17:51.399652Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-16T17:17:51.399673Z  INFO herdr::server::headless: headless server exiting
+2026-11-16T17:17:51.402303Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-16T17:17:51.402438Z  INFO herdr::pane: pane session terminated pane=1 pid=1824 signal=Hangup
+2026-11-16T17:17:51.405446Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1287
+2026-11-16T19:47:26.980754Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-16T19:47:26.982140Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-16T19:47:26.982964Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1814
+2026-11-16T19:47:26.983120Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-16T19:47:26.983135Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-16T19:47:27.047196Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-16T19:47:27.047553Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-16T19:47:27.047593Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-16T19:47:27.047705Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1283
+2026-11-16T19:47:27.480757Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-16T19:47:27.480774Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-16T19:47:27.480944Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
+2026-11-16T21:31:49.901711Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-11-16T21:31:49.951804Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-11-16T21:31:49.952012Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/nevo/.config/herdr/session.json workspaces=1
+2026-11-16T21:31:49.952022Z  INFO herdr::server::headless: headless server exiting
+2026-11-16T21:31:49.952438Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-11-16T21:31:49.954192Z  INFO herdr::pane: pane session terminated pane=1 pid=1814 signal=Hangup
+2026-11-16T21:31:49.954487Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=1283
+2026-11-17T06:20:55.331298Z  INFO herdr::api::server: api server listening path=/home/nevo/.config/herdr/herdr.sock
+2026-11-17T06:20:55.332538Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-11-17T06:20:55.333151Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=1805
+2026-11-17T06:20:55.333290Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-11-17T06:20:55.333298Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-11-17T06:20:55.393639Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-11-17T06:20:55.394009Z  INFO herdr::server::headless: client protocol socket listening path=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-17T06:20:55.394047Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/nevo/.config/herdr/herdr.sock client_socket=/home/nevo/.config/herdr/herdr-client.sock
+2026-11-17T06:20:55.394122Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=1290
+2026-11-17T06:20:55.670927Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.9.5"
+2026-11-17T06:20:55.670941Z  INFO herdr::update: new stable build available at https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-x86_64
+2026-11-17T06:20:55.671407Z  INFO herdr::update: auto-update check: 0.9.5 available, waiting for explicit install
