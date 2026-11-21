@@ -26,9 +26,9 @@ o.window("initial_class:org.omarchy.btop", {
 	tile = true,
 })
 
-o.window(".*", {
-	opacity = "1 0.95",
-})
+-- o.window(".*", {
+-- 	opacity = "1 0.95",
+-- })
 
 o.window("org.omarchy.about", { size = { 1070, 800 } })
 
